@@ -1,0 +1,14 @@
+{
+  "name": "nammmr.org",
+  "version": "1.0.0",
+  "description": "nammmr.org website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casey Duncan",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
