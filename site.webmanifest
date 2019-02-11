@@ -1,0 +1,8 @@
+{
+    "icons": [{
+        "src": "favicon.png",
+        "sizes": "288x288",
+        "type": "image/jpg"
+    }],
+    "start_url": "/"
+}
