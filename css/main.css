@@ -1,0 +1,87 @@
+body {
+  /* background-image: url('/img/background-gradient.png');
+  background-position: top;
+  background-repeat: repeat-x;
+  */
+  background-color: rgb(81,51,5);
+  font-family: Palatino, Times New Roman, Serif;
+}
+
+#navbar {
+  position: relative;
+  background-image: url('/img/navbar-background.png');
+  background-repeat: repeat-x;
+  width: 99%;
+  height: 27px;
+  text-align: left;
+  vertical-align: center;
+  padding-left: 1%;
+  padding-top: 2px;
+  font-family: Helvetica Neue, Helvetica, Arial, Sans-Serif;
+  white-space: nowrap;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  padding: 4px 8px 4px 8px;
+  text-shadow: rgb(81,51,5) 1px 1px 1px;
+}
+
+#navbar a:hover {
+  background-color: green;
+}
+
+#navbar a:active {
+  background-color: rgb(81,51,5);
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  margin-bottom: -28px;
+  /* border: 1px red solid; */
+}
+
+#masthead-title {
+  margin-top: 33px;
+  margin-bottom: 7px;
+  margin-right: 20%;
+  margin-left: 5%;
+  max-width: 70%;
+  vertical-align: top;
+  z-index: 0;
+}
+
+#masthead-logo {
+  position: absolute;
+  right: 5%;
+  top: 5px;
+  max-width: 13%;
+  max-height: 143px;
+  min-height: 80px;
+  min-width: 70px;
+  float: right;
+}
+
+#content {
+  background: linear-gradient(white, rgb(81,51,5));
+  min-height: 350px;
+  padding: 1%;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+footer * {
+  min-width: 300px;
+  padding: 1em;
+}
+
+
+
+
