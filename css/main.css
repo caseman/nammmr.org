@@ -3,44 +3,70 @@ body {
   background-position: top;
   background-repeat: repeat-x;
   */
-  background-color: rgb(81,51,5);
   font-family: Palatino, Times New Roman, Serif;
 }
 
-#navbar {
-  position: relative;
+nav {
   background-image: url('/img/navbar-background.png');
   background-repeat: repeat-x;
   width: 99%;
+  max-width: 99%;
   height: 27px;
   text-align: left;
   vertical-align: center;
   padding-left: 1%;
   padding-top: 2px;
+  color: white;
   font-family: Helvetica Neue, Helvetica, Arial, Sans-Serif;
+  text-shadow: rgb(81,51,5) 1px 1px 1px;
   white-space: nowrap;
+  overflow: hidden;
 }
 
-#navbar a {
-  text-decoration: none;
+nav #menu {
+  display: inline;
+}
+
+nav li, nav ul {
+  display: inline;
+}
+
+nav #drop-down {
+  display: none;
+  position: relative;
+  top: -7px;
+}
+
+nav #drop-down span {
+  font-size: 150%;
+  position: relative;
+  top: 2px;
+}
+
+nav a {
   color: white;
+  text-decoration: none;
   margin-right: 10px;
   padding: 4px 8px 4px 8px;
-  text-shadow: rgb(81,51,5) 1px 1px 1px;
 }
 
-#navbar a:hover {
+nav a:hover {
   background-color: green;
 }
+/*
+div {
+   border: 1px solid red !important;
+}
+*/
 
-#navbar a:active {
+nav a:active {
   background-color: rgb(81,51,5);
 }
 
 header {
   background-color: white;
   width: 100%;
-  margin-bottom: -28px;
+  margin-bottom: -18px;
   /* border: 1px red solid; */
 }
 
@@ -65,23 +91,175 @@ header {
   float: right;
 }
 
-#content {
-  background: linear-gradient(white, rgb(81,51,5));
+#main-content {
+  margin-top: 1em;
   min-height: 350px;
-  padding: 1%;
+  background-color: rgb(240,240,240);
+}
+
+.content-block {
+  display: inline-block;
+}
+
+#home-quote {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  height: 665px;
+  background-color: white;
+  vertical-align: top;
+  opacity: 0.99;
+  float: right;
+}
+
+#home-quote:before {
+  position: absolute;
+  content: "";
+  background-image: url('/img/mg-factory.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: white;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+#home-quote aside {
+  padding: 2%;
+  margin-left: 2%;
+  margin-top: 1em;
+  color: rgb(81,51,5);
+  border-left: solid 1px rgb(127,107,79);
+}
+
+#home-quote blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+#content-sections {
+  background: linear-gradient(white, rgb(127,107,79));
+  background-color: rgb(127,107,79);
+  width: 60%;
+  font-size: 110%;
+}
+
+a.plain {
+  text-decoration: none;
+}
+
+a.plain img {
+  border: none;
+}
+
+#content-sections h2 {
+  color: green;
+  text-shadow: white 0px 0px 2px;
+}
+
+.section-img {
+  float: left;
+  margin-right: 1em;
+  max-width: 25%;
+  min-width: 150px;
+}
+
+#hagerty-logo.section-img {
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+#content-sections section {
+  padding: 1em;
+  display: inline-block;
+  clear: left;
+  box-shadow: inset rgb(210,204,193) 0 0 2px;
+}
+
+.content-block {
+  clear: both;
+}
+
+@media screen and (min-width: 801px) {
+  nav #menu {
+    display: inline !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #main-content .content-block {
+    display: block;
+	width: 100%;
+  }
+
+
+  #home-quote, #home-quote:before {
+    display: none;
+    height: 100%;
+	background: transparent;
+  }
+
+  #home-quote aside {
+    color: rgb(127,107,79);
+	border-left: none;
+	padding-top: 2em;
+	padding-bottom: 1em;
+  }
+
+  nav #drop-down {
+    display: inline;
+  }
+
+  nav #menu {
+    display: none;
+	position: absolute;
+	left: 0;
+	padding: 0;
+	margin-top: -8px;
+	height: 275px;
+	background-color: rgb(59,113,68);
+	box-shadow: 4px 4px 15px #444;
+  }
+
+  #menu li {
+    display: block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 1px solid rgb(127,167,135);
+  }
+
+  #menu li a {
+   padding: 8px 22px;
+   margin: 0;
+   display: block;
+  }
+}
+
+footer #buffer {
+  height: 5em;
+  background: linear-gradient(rgb(127,107,79), rgb(81,51,5));
+  background-color: rgb(81,51,5);
 }
 
 footer {
+  border-top: 1px solid rgb(81,51,5);
+  background-color: rgb(81,51,5);
   color: white;
   text-align: center;
   margin: auto;
+  padding-bottom: 2em;
 }
 
-footer * {
-  min-width: 300px;
-  padding: 1em;
+footer .content {
+  margin: 0.75em;
 }
-
 
 
 
