@@ -1,13 +1,9 @@
 body {
-  /* background-image: url('/img/background-gradient.png');
-  background-position: top;
-  background-repeat: repeat-x;
-  */
   font-family: Palatino, Times New Roman, Serif;
 }
 
 nav {
-  background-image: url('/img/navbar-background.png');
+  background-image: url('../img/navbar-background.png');
   background-repeat: repeat-x;
   width: 99%;
   max-width: 99%;
@@ -115,7 +111,7 @@ header {
 #home-quote:before {
   position: absolute;
   content: "";
-  background-image: url('/img/mg-factory.jpg');
+  background-image: url('../img/mg-factory.jpg');
   background-repeat: no-repeat;
   background-position: top right;
   background-color: white;
