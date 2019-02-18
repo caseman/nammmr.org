@@ -60,7 +60,8 @@
     "vin": "J2332",
     "owner": "Casey & Lynelle Duncan",
     "location": "Colorado, USA",
-    "description": ""
+    "description": "",
+    "addt_photos": 1
 },
 {
     "type": "J",
@@ -97,5 +98,290 @@
     "owner": "Alan & Kathy McCreery",
     "location": "New Jersey, USA",
     "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3128",
+    "owner": "Bob & Carolyn Grunau",
+    "location": "Ontario, Canada",
+    "description": "(some assembly required)"
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3459",
+    "owner": "Koke & Andi Twigg-Smith",
+    "location": "Vermont, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1934,
+    "vin": "J3670",
+    "owner": "Gary & Gwen Krukoski",
+    "location": "Minnesota, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3684",
+    "owner": "Carlyle & Averil Merritt",
+    "location": "Iowa, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J4108",
+    "owner": "Lindsay Coleman",
+    "location": "Virginia, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J4169",
+    "owner": "Chris & Laurie Nowlan",
+    "location": "New Hampshire, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J4388",
+    "owner": "Bob Ohnstad",
+    "location": "Montana, USA",
+    "description": "Just Purchased (future member?)"
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "EX154",
+    "owner": "Pip Bucknell",
+    "location": "Queensland, Australia",
+    "description": "P EX154 -- Kohlrausch Car"
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "PA0531",
+    "owner": "Bob & Carolyn Grunau",
+    "location": "Ontario, Canada",
+    "description": "",
+    "addt_photos": 1
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "PA1000",
+    "owner": "Phil & Betty Marcell",
+    "location": "Texas, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "PA1127",
+    "owner": "Peter & Pat Davis",
+    "location": "Tennessee, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "PA1212",
+    "owner": "Phil & Karna Anderson",
+    "location": "Minnesota, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "PA1388",
+    "owner": "Kevin & Paula Allocca",
+    "location": "Virginia, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1935,
+    "vin": "PA1668",
+    "owner": "Pip Bucknell",
+    "location": "Queensland, Australia",
+    "description": "Single-seat racer",
+    "addt_photos": 1
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1935,
+    "vin": "PA1823",
+    "owner": "Don & Sandy Bonar",
+    "location": "Kansas, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1935,
+    "vin": "PA1850",
+    "owner": "Randy & Sandy Copleman",
+    "location": "Arizona, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
+    "vin": "PA1976",
+    "owner": "Jack & Nancy Kahler",
+    "location": "Colorado, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1935,
+    "vin": "PA2108",
+    "owner": "Dan Shockey",
+    "location": "California, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PB",
+    "year": 1936,
+    "vin": "PB0381",
+    "owner": "Eric Baker",
+    "location": "California, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PB",
+    "year": 1936,
+    "vin": "PB0474",
+    "owner": "Ian & Shelley Marr",
+    "location": "Ontario, Canada",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PB",
+    "year": 1936,
+    "vin": "PB0560",
+    "owner": "Lew & Darlene Palmer",
+    "location": "Minnesota, USA",
+    "description": "Airline Coupe"
+},
+{
+    "type": "K",
+    "model": "K1",
+    "year": 1933,
+    "vin": "K0338",
+    "owner": "John & Brenda Hancock",
+    "location": "Auckland, New Zealand",
+    "description": "K1 Special",
+    "addt_photos": 1
+},
+{
+    "type": "K",
+    "model": "KN",
+    "year": 1935,
+    "vin": "KN0389",
+    "owner": "Bob & Carolyn Grunau",
+    "location": "Ontario, Canada",
+    "description": "4 Door Pillarless Saloon",
+    "addt_photos": 2
+},
+{
+    "type": "L",
+    "model": "L1",
+    "year": 1933,
+    "vin": "L0266",
+    "owner": "Bill & Jeanne Bollendonk",
+    "location": "Colorado, USA",
+    "description": "L Special"
+},
+{
+    "type": "L",
+    "model": "L1",
+    "year": 1933,
+    "vin": "L0317",
+    "owner": "Antoine & Kimberly Crettol",
+    "location": "New York, USA",
+    "description": ""
+},
+{
+    "type": "L",
+    "model": "L2",
+    "year": 1933,
+    "vin": "L2002",
+    "owner": "Chris & Laurie Nowlan",
+    "location": "New Hampshire, USA",
+    "description": ""
+},
+{
+    "type": "N",
+    "model": "NA",
+    "year": 1934,
+    "vin": "NA0476",
+    "owner": "Michael & Rebecca Jacobsen",
+    "location": "California, USA",
+    "description": ""
+},
+{
+    "type": "N",
+    "model": "NA",
+    "year": 1934,
+    "vin": "NA0613",
+    "owner": "Terry Sanders",
+    "location": "California, USA",
+    "description": "4-seater"
+},
+{
+    "type": "N",
+    "model": "NA",
+    "year": 1935,
+    "vin": "NA0686",
+    "owner": "Bob & Carolyn Grunau",
+    "location": "Ontario, Canada",
+    "description": "ex Lancashire Constabulary",
+    "addt_photos": 1
+},
+{
+    "type": "N",
+    "model": "NE",
+    "year": 1934,
+    "vin": "NA0518",
+    "owner": "Pete & Frances Thelander",
+    "location": "California, USA",
+    "description": "Boat-tail Racer",
+    "addt_photos": 2
+},
+{
+    "type": "N",
+    "model": "NB",
+    "year": 1935,
+    "vin": "NA0870",
+    "owner": "Tom & Kathleen Metcalf",
+    "location": "Ohio, USA",
+    "description": "2-seater"
 }
 ]

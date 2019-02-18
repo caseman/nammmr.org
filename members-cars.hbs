@@ -28,6 +28,12 @@ base: ../
             <img class="owl-lazy" data-hash="{{vin}}" data-src="photos/{{vin}}.jpg">
             <div class="caption">{{year}} MG {{model}}<br>{{owner}}</div>
         </div>
+        {{#repeat addt_photos}}
+        <div>
+            <img class="owl-lazy" data-hash="{{vin}}-{{@count}}" data-src="photos/{{vin}}-{{@count}}.jpg">
+            <div class="caption">{{year}} MG {{model}}<br>{{owner}}</div>
+        </div>
+        {{/repeat}}
         {{/each}}
     </div>
 </div>
