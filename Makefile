@@ -1,14 +1,23 @@
 src_photos = $(wildcard _photos/*.jpg)
 thumbs = $(subst _photos,thumb, $(src_photos))
+photos = $(subst _photos,photos, $(src_photos))
 
 thumb/%.jpg: _photos/%.jpg
 	mkdir -p thumb
 	convert -thumbnail 200 $< $@
 
-build: $(thumbs)
+photos/%.jpg: _photos/%.jpg
+	mkdir -p photos
+	convert -resize 800 $< $@
+
+js/owl.carousel.min.js: node_modules/owl.carousel/dist/owl.carousel.min.js
+	cp $< $@
+	cp node_modules/owl.carousel/dist/assets/*.css css/
+
+build: $(thumbs) $(photos) js/owl.carousel.min.js
 	npx eleventy
 
-serve: $(thumbs)
+serve: $(thumbs) $(photos)
 	npx eleventy --serve
 
 clean:
