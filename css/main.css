@@ -139,9 +139,12 @@ blockquote {
   font-style: italic;
 }
 
-#content-sections {
+.content-background {
   background: linear-gradient(white, rgb(127,107,79));
   background-color: rgb(127,107,79);
+}
+
+#content-sections {
   width: 60%;
   font-size: 110%;
 }
@@ -171,6 +174,10 @@ a.plain img {
   margin-bottom: 5px;
 }
 
+section {
+  padding: 0 0.5em;
+}
+
 #content-sections section {
   padding: 1em;
   display: inline-block;
@@ -180,6 +187,45 @@ a.plain img {
 
 .content-block {
   clear: both;
+}
+
+#member-cars {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#member-cars h2 {
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+#member-cars .car {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 250px;
+  min-height: 220px;
+  padding: 0.75em;
+  margin: 2px;
+  background-color: rgba(255,255,255,0.25);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+  border-radius: 4px;
+}
+
+#member-cars .car img {
+  margin-bottom: 0.5em;
+}
+
+#member-cars .car-info {
+  font-size: 120%;
+  word-spacing: 2px;
+}
+
+
+#member-cars aside {
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 801px) {

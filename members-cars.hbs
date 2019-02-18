@@ -1,0 +1,27 @@
+---
+title: Members' Cars
+layout: main-layout.hbs
+base: ../
+---
+<div id="member-cars" class="content-background">
+<aside>
+    <em>Want to see your car listed here? Send an email to 
+    <a href="mailto:casey.duncan+nammmr@gmail.com">Casey Duncan</a>
+    with a photo and information. We'd love to have all of our members' cars
+    listed!</em>
+</aside>
+{{#each cars}}
+    <section class="car-type">
+        <h2>{{type}}</h2>
+        {{#each cars}}
+        <div class="car">
+            <img src="thumb/{{vin}}.jpg" alt="{{year}} MG {{model}}" title="click to enlarge">
+            <div class="car-info">{{year}} {{model}} {{vin}}</div>
+            {{#if description}}<div>{{description}}</div>{{/if}}
+            <div>{{owner}}</div>
+            <div>{{location}}</div>
+        </div>
+        {{/each}}
+    </section>
+{{/each}}
+</div>

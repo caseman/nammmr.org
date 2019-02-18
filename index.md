@@ -4,7 +4,7 @@ layout: main-layout.hbs
 permalink: index.html
 ---
 
-<div id="content-sections" class="content-block">
+<div id="content-sections" class="content-block content-background">
 <section id="home-feature">
 <a class="plain" href="#"><img class="section-img" src="img/2019-bowling-green-logo.png" alt="2019: NAMMMR & Bowling Green Kentucky, Both Geared for Fun!" /></a>
 
