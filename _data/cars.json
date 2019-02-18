@@ -1,113 +1,101 @@
 [
 {
-    "type": "M Type",
-    "cars": [
-    {
-        "type": "M",
-        "model": "M",
-        "year": 1929,
-        "vin": "2M0586",
-        "owner": "Russel Hertzog",
-        "location": "Texas, USA",
-        "description": "Restored in the livery of a 12/12 Brooklands Racer"
-    },
-    {
-        "type": "M",
-        "model": "M",
-        "year": 1930,
-        "vin": "2BM2273",
-        "owner": "Jack & Nancy Kahler",
-        "location": "Colorado, USA",
-        "description": "Brooklands Factory Double Twelve Racer"
-    },
-    {
-        "type": "M",
-        "model": "M",
-        "year": 1931,
-        "vin": "2M2735",
-        "owner": "Reinout Vogt",
-        "location": "Illinois, USA",
-        "description": ""
-    }]
+    "type": "M",
+    "model": "M",
+    "year": 1929,
+    "vin": "2M0586",
+    "owner": "Russel Hertzog",
+    "location": "Texas, USA",
+    "description": "Restored in the livery of a 12/12 Brooklands Racer"
 },
 {
-    "type": "F Type",
-    "cars": [
-    {
-        "type": "F",
-        "model": "F1",
-        "year": 1932,
-        "vin": "F0672",
-        "owner": "Clark & Pamela Lance",
-        "location": "New Jersey, USA",
-        "description": "F1 Magna Tourer"
-    },
-    {
-        "type": "F",
-        "model": "F3",
-        "year": 1933,
-        "vin": "F1396",
-        "owner": "Mickey & Stella Saperstein",
-        "location": "Arizona, USA",
-        "description": "F3 Magna Tourer"
-    }]
+    "type": "M",
+    "model": "M",
+    "year": 1930,
+    "vin": "2BM2273",
+    "owner": "Jack & Nancy Kahler",
+    "location": "Colorado, USA",
+    "description": "Brooklands Factory Double Twelve Racer"
 },
 {
-    "type": "J Type",
-    "cars": [
-    {
-        "type": "J",
-        "model": "J2",
-        "year": 1932,
-        "vin": "J2023",
-        "owner": "Jack & Kathryn Schneider",
-        "location": "Minnesota, USA",
-        "description": ""
-    },
-    {
-        "type": "J",
-        "model": "J2",
-        "year": 1932,
-        "vin": "J2332",
-        "owner": "Casey & Lynelle Duncan",
-        "location": "Colorado, USA",
-        "description": ""
-    },
-    {
-        "type": "J",
-        "model": "J2",
-        "year": 1933,
-        "vin": "J2245",
-        "owner": "Shirley Splaine",
-        "location": "New Hampshire, USA",
-        "description": ""
-    },
-    {
-        "type": "J",
-        "model": "J2",
-        "year": 1933,
-        "vin": "J3017",
-        "owner": "Bob & Carolyn Grunau",
-        "location": "Ontario, Canada",
-        "description": ""
-    },
-    {
-        "type": "J",
-        "model": "J2",
-        "year": 1933,
-        "vin": "J3101",
-        "owner": "Jaime Steve",
-        "location": "Virginia, USA",
-        "description": ""
-    },
-    {
-        "type": "J",
-        "model": "J2",
-        "year": 1933,
-        "vin": "J3112",
-        "owner": "Alan & Kathy McCreery",
-        "location": "New Jersey, USA",
-        "description": ""
-    }]
+    "type": "M",
+    "model": "M",
+    "year": 1931,
+    "vin": "2M2735",
+    "owner": "Reinout Vogt",
+    "location": "Illinois, USA",
+    "description": ""
+},
+{
+    "type": "F",
+    "model": "F1 Magna",
+    "year": 1932,
+    "vin": "F0672",
+    "owner": "Clark & Pamela Lance",
+    "location": "New Jersey, USA",
+    "description": "Tourer"
+},
+{
+    "type": "F",
+    "model": "F3 Magna",
+    "year": 1933,
+    "vin": "F1396",
+    "owner": "Mickey & Stella Saperstein",
+    "location": "Arizona, USA",
+    "description": "Tourer"
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1932,
+    "vin": "J2023",
+    "owner": "Jack & Kathryn Schneider",
+    "location": "Minnesota, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1932,
+    "vin": "J2332",
+    "owner": "Casey & Lynelle Duncan",
+    "location": "Colorado, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J2245",
+    "owner": "Shirley Splaine",
+    "location": "New Hampshire, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3017",
+    "owner": "Bob & Carolyn Grunau",
+    "location": "Ontario, Canada",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3101",
+    "owner": "Jaime Steve",
+    "location": "Virginia, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3112",
+    "owner": "Alan & Kathy McCreery",
+    "location": "New Jersey, USA",
+    "description": ""
 }
 ]

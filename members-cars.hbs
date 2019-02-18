@@ -1,6 +1,6 @@
 ---
 title: Members' Cars
-layout: main-layout.hbs
+layout: carousel.hbs
 base: ../
 ---
 <div id="member-cars" class="content-background">
@@ -11,17 +11,52 @@ base: ../
     listed!</em>
 </aside>
 {{#each cars}}
-    <section class="car-type">
-        <h2>{{type}}</h2>
+    {{#if-changed type}} <h2>{{type}} Type</h2>{{/if-changed}}
+    <a class="car" href="members-cars/#{{vin}}" class="plain" onclick="showCarousel()">
+        <img src="thumb/{{vin}}.jpg" alt="{{year}} MG {{model}}" 
+             title="click to enlarge">
+        <div class="car-info">{{year}} {{model}} {{vin}}</div>
+        {{#if description}}<div>{{description}}</div>{{/if}}
+        <div>{{owner}}</div>
+        <div>{{location}}</div>
+    </a>
+{{/each}}
+
+    <div id="carousel" aria-modal="true" class="modal owl-carousel owl-theme">
         {{#each cars}}
-        <div class="car">
-            <img src="thumb/{{vin}}.jpg" alt="{{year}} MG {{model}}" title="click to enlarge">
-            <div class="car-info">{{year}} {{model}} {{vin}}</div>
-            {{#if description}}<div>{{description}}</div>{{/if}}
-            <div>{{owner}}</div>
-            <div>{{location}}</div>
+        <div>
+            <img class="owl-lazy" data-hash="{{vin}}" data-src="photos/{{vin}}.jpg">
+            <div class="caption">{{year}} MG {{model}}<br>{{owner}}</div>
         </div>
         {{/each}}
-    </section>
-{{/each}}
+    </div>
 </div>
+
+<script>
+function documentReady() {
+    $('#carousel').owlCarousel({
+        items: 1,
+        URLhashListener: true,
+        startPosition: 'URLHash',
+        lazyLoad: true,
+        lazyLoadEager: 1,
+        loop: true,
+        nav: true,
+        dots: false,
+    });
+    $('#carousel .owl-nav').append(
+        '<button type="button" role="presentation" class="close" aria-label="close" onclick="$(\'#carousel\').hide(150)">&times;</button>'
+    );
+    if (!window.location.hash) {
+        $('#carousel').hide();
+    }
+}
+
+function showCarousel() {
+    var carousel = $('#carousel');
+    carousel.show();
+    setTimeout(function() {
+        carousel.trigger('refresh.owl.carousel')
+    }, 0);
+}
+</script>
