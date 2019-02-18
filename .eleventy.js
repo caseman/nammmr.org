@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
     [
         "img",
+        "thumb",
         "css",
         "js",
         "favicon.jpg",
