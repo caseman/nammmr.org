@@ -4,6 +4,7 @@ photos = $(subst _photos,photos, $(src_photos))
 src_newletters = $(wildcard newsletters/*.pdf)
 newsletter_thumbs = $(subst pdf,jpg, \
 	$(subst newsletters,newsletter-thumb, $(src_newletters)))
+tmp := $(shell mktemp)
 
 thumb/%.jpg: _photos/%.jpg
 	mkdir -p thumb
@@ -16,9 +17,12 @@ photos/%.jpg: _photos/%.jpg
 newsletter-thumb/%.jpg: newsletters/%.pdf
 	mkdir -p newsletter-thumb
 	gs -sDEVICE=jpeg -dNOPAUSE -dPDFFitPage=true \
-	   -dDEVICEWIDTHPOINTS=250 -dDEVICEHEIGHTPOINTS=324 \
+	   -dDEVICEWIDTHPOINTS=1000 -dDEVICEHEIGHTPOINTS=770 \
 	   -dGraphicsAlphaBits=4 -dTextAlphaBits=4 \
-	   -dFirstPage=1 -dLastPage=1 -sOutputFile=$@ $< -c quit
+	   -dFirstPage=1 -dLastPage=1 -sOutputFile=$(tmp) \
+	   $< -c quit
+	convert -thumbnail 250 $(tmp) $@
+	rm $(tmp)
 
 js/owl.carousel.min.js: node_modules/owl.carousel/dist/owl.carousel.min.js
 	cp $< $@
