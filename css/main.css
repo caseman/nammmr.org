@@ -162,6 +162,7 @@ blockquote {
 
 a.plain {
   text-decoration: none;
+  color: black;
 }
 
 a.plain img {
@@ -200,12 +201,13 @@ section {
   clear: both;
 }
 
-#member-cars {
+.content-padding {
   padding: 8px;
 }
 
-#member-cars h2 {
+.divider {
   border-bottom: 1px solid rgba(0,0,0,0.25);
+  clear: both;
 }
 
 #member-cars .car {
@@ -303,6 +305,42 @@ button.owl-next {
     cursor: pointer;
 }
 
+.shadowed {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+}
+
+.newsletter {
+  display: inline-block;
+  margin: 8px;
+}
+
+.newsletter img.past {
+  height: 200px;
+}
+
+.newsletter .caption {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+ul {
+  list-style-image: url('../img/mg-bullet.png');
+}
+
+#current-newletter {
+}
+
+#current-newsletter .newsletter {
+  float: left;
+}
+
+.newsletter-features {
+  vertical-align: top;
+  margin-right: 1em;
+  padding-right: 2em;
+  float: left;
+}
 
 @media screen and (min-width: 801px) {
   nav #menu {

@@ -3,7 +3,7 @@ title: Members' Cars
 layout: carousel.hbs
 base: ../
 ---
-<div id="member-cars" class="content-background">
+<div id="member-cars" class="content-padding content-background">
 <aside>
     <em>Want to see your car listed here? Send an email to 
     <a href="mailto:casey.duncan+nammmr@gmail.com">Casey Duncan</a>
@@ -11,7 +11,7 @@ base: ../
     listed!</em>
 </aside>
 {{#each cars}}
-    {{#if-changed type}} <h2>{{type}} Type</h2>{{/if-changed}}
+    {{#if-changed type}} <h2 class="divider">{{type}} Type</h2>{{/if-changed}}
     <a class="car" href="members-cars/#{{vin}}" class="plain" onclick="showCarousel()">
         <img src="thumb/{{vin}}.jpg" alt="{{year}} MG {{model}}" 
              title="click to enlarge">
