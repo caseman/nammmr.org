@@ -1,5 +1,5 @@
 ---
-title: North American MMM Register
+title: Welcome
 layout: main-layout.hbs
 permalink: index.html
 ---
