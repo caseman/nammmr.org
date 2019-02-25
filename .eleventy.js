@@ -35,6 +35,7 @@ module.exports = function(eleventyConfig) {
         "photos",
         "css",
         "js",
+        "events",
         "newsletters",
         "newsletter-thumb",
         "favicon.jpg",

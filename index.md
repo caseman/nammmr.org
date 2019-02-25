@@ -6,10 +6,10 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section id="home-feature">
-<a class="plain" href="#"><img class="section-img" src="img/2019-bowling-green-logo.png" alt="2019: NAMMMR & Bowling Green Kentucky, Both Geared for Fun!" /></a>
+<a class="plain" href="events/"><img class="section-img" src="img/2019-bowling-green-logo.png" alt="2019: NAMMMR & Bowling Green Kentucky, Both Geared for Fun!" /></a>
 
-<a class="plain" href="#">
-<h2>Save&nbsp;the&nbsp;Dates: &nbsp;
+<a class="plain" href="events/">
+<h2 class="green-heading">National&nbsp;Meet:
 June&nbsp;19&nbsp;to&nbsp;22, 2019</h2>
 </a>
 
@@ -18,17 +18,18 @@ on our own! The location will be
 Bowling Green Kentucky.
 Our own Bill & Sarah Richey will be hosting
 our Register in their home city.
-The event & activities are being
-organized at this time.
 It will be an exciting event
 & we hope to have great participation
 from our membership.*
+
+*Go to the [Events page](events/) for all the details, and to
+download the registration form. See you in June!*
 </section>
 <section class="content">
 <a class="plain" href="#"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
 
 <a class="plain" href="#">
-<h2>New Style NAMMMR Regalia</h2>
+<h2 class="green-heading">New Style NAMMMR Regalia</h2>
 </a>
 
 *Clothing & accessory items are now available for purchase.
@@ -41,7 +42,7 @@ Go to our <a href="#">Regalia Page</a> for details!*
 <a class="plain" href="https://www.hagerty.com/apps/-/CLLTM"><img id="hagerty-logo" class="section-img" src="img/hagerty-logo.jpg" alt="" /><a>
 
 <a class="plain" href="https://www.hagerty.com/apps/-/CLLTM">
-<h2>New NAMMMR Member Benefit</h2>
+<h2 class="green-heading">New NAMMMR Member Benefit</h2>
 </a>
 
 *Announcing a NAMMMR Classic Auto Insurance

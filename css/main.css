@@ -169,9 +169,9 @@ a.plain img {
   border: none;
 }
 
-#content-sections h2 {
+.green-heading {
   color: green;
-  text-shadow: white 0px 0px 2px;
+  text-shadow: white 0px 0px 1px;
 }
 
 .section-img {
@@ -194,7 +194,7 @@ section {
   padding: 1em;
   display: inline-block;
   clear: left;
-  box-shadow: inset rgb(210,204,193) 0 0 2px;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
 .content-block {
@@ -309,16 +309,22 @@ button.owl-next {
   box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
 }
 
-.newsletter {
+.doc-thumb {
   display: inline-block;
+  text-align: center;
   margin: 8px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 1em;
 }
 
 .newsletter img.past {
   height: 200px;
 }
 
-.newsletter .caption {
+.caption {
   text-align: center;
   font-weight: bold;
   margin-top: 0.5em;
@@ -340,6 +346,36 @@ ul {
   margin-right: 1em;
   padding-right: 2em;
   float: left;
+}
+
+#events .date {
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#events img.logo, 
+#events img.feature {
+  clear: left;
+  float: left;
+  min-width: 200px;
+  max-width: 25%;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.details {
+  display: inline-block;
+}
+
+.back-link {
+  text-align: right;
+}
+
+.back-link .arrow {
+  font-size: 28px;
+  position: relative;
+  top: 5px;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 801px) {

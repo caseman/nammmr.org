@@ -3,7 +3,7 @@ title: Newsletters
 layout: main-layout.hbs
 base: ../
 ---
-<div id="newletters" class="content-padding content-background">
+<div id="newsletters" class="content-padding content-background">
 {{#each newsletters}}
 {{#if @first}}
 <div id="current-newsletter">
@@ -19,7 +19,7 @@ base: ../
         </ul>
     </div>
 {{/if}}
-<a class="newsletter" href="newsletters/{{file}}.pdf">
+<a class="newsletter doc-thumb" href="newsletters/{{file}}.pdf">
   <img class="shadowed {{#unless @first}}past{{/unless}}" src="newsletter-thumb/{{file}}.jpg" alt="">
   <div class="caption">{{title}}</div>
 </a>
