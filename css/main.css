@@ -334,18 +334,24 @@ ul {
   list-style-image: url('../img/mg-bullet.png');
 }
 
-#current-newletter {
-}
-
-#current-newsletter .newsletter {
-  float: left;
+#current-newsletter {
+  background-image: url('../img/nammmr-logo-embossed.png');
+  background-repeat: no-repeat;
+  background-position: 700px 60px;
 }
 
 .newsletter-features {
   vertical-align: top;
   margin-right: 1em;
   padding-right: 2em;
-  float: left;
+  display: inline-block;
+}
+
+#newsletters .end-logo {
+  width: 150px;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 #events .date {
@@ -375,7 +381,6 @@ ul {
   font-size: 28px;
   position: relative;
   top: 5px;
-  text-decoration: none;
 }
 
 @media screen and (min-width: 801px) {
