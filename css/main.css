@@ -153,6 +153,7 @@ blockquote {
 .content-background {
   background: linear-gradient(white, rgb(127,107,79));
   background-color: rgb(127,107,79);
+  min-height: 350px;
 }
 
 #content-sections {
@@ -194,6 +195,9 @@ section {
   padding: 1em;
   display: inline-block;
   clear: left;
+}
+
+.divided {
   border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
@@ -381,6 +385,36 @@ ul {
   font-size: 28px;
   position: relative;
   top: 5px;
+}
+
+#for-sale-details img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#for-sale .summary {
+}
+
+#for-sale .item {
+    display: block;
+    overflow: hidden;
+}
+
+#for-sale h2 {
+    padding: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+#for-sale h3 {
+    margin-top: .25em;
+}
+
+#for-sale .item .thumb {
+    float: left;
+    margin-right: 1.5em;
 }
 
 @media screen and (min-width: 801px) {

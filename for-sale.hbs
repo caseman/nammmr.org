@@ -1,0 +1,19 @@
+---
+layout: main-layout.hbs
+title: For Sale
+base: ../
+---
+<div id="for-sale" class="content-background">
+<h2 class="divider">Cars For Sale</h2>
+{{#each (reverse collections/cars-for-sale)}}
+<a class="plain content-padding item {{#unless @last}}divided{{/unless}}"
+   href="/for-sale/{{fileSlug}}/">
+    <img class="thumb" src="thumb/{{fileSlug}}-1.jpg" alt="">
+    <div class="summary">
+    <h3>{{data/title}}</h3>
+    <p>{{data/summary}}</p>
+    {{#if data/price}}<p><strong>Price:</strong> {{data/price}}</p>{{/if}}
+    </div>
+</a>
+{{/each}}
+</div>

@@ -1,0 +1,14 @@
+---
+layout: main-layout.hbs
+base: ../../
+---
+<div id="for-sale-details" class="content-padding content-background">
+<h2 class="green-heading">For Sale &mdash; {{title}}</h2>
+{{{content}}}
+{{#if price}}
+<p><strong>Price:</strong> {{price}}</p>
+{{/if}}
+{{#repeat photos}}
+<img class="shadowed" src="photos/{{page.fileSlug}}-{{@count}}.jpg" alt="">
+{{/repeat}}
+</div>

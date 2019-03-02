@@ -5,7 +5,7 @@ permalink: index.html
 ---
 
 <div id="content-sections" class="content-block content-background">
-<section id="home-feature">
+<section id="home-feature" class="divided">
 <a class="plain" href="events/"><img class="section-img" src="img/2019-bowling-green-logo.png" alt="2019: NAMMMR & Bowling Green Kentucky, Both Geared for Fun!" /></a>
 
 <a class="plain" href="events/">
@@ -25,7 +25,7 @@ from our membership.*
 *Go to the [Events page](events/) for all the details, and to
 download the registration form. See you in June!*
 </section>
-<section class="content">
+<section class="content divided">
 <a class="plain" href="#"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
 
 <a class="plain" href="#">
