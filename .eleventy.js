@@ -28,6 +28,13 @@ function repeat(times, options) {
     return ret;
 }
 
+// Reverse elements of an array
+function reverse(array) {
+    array = array.slice();
+    array.reverse();
+    return array;
+}
+
 module.exports = function(eleventyConfig) {
     [
         "img",
@@ -45,6 +52,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addHandlebarsHelper('if-changed', ifChanged);
     eleventyConfig.addHandlebarsHelper('repeat', repeat);
+    eleventyConfig.addHandlebarsHelper('reverse', reverse);
 
     return {
         passthroughFileCopy: true
