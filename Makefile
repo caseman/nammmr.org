@@ -39,7 +39,7 @@ serve: assets
 clean:
 	rm -rf _site
 	rm -rf thumbs
-	rm -ft newsletter-thumb
+	rm -rf newsletter-thumb
 
 ultraclean: clean
 	rm -rf node_modules
