@@ -363,7 +363,7 @@ ul {
   font-size: 125%;
 }
 
-#events img.logo, 
+#events img.logo,
 #events img.feature {
   clear: left;
   float: left;
@@ -414,7 +414,12 @@ ul {
 
 #for-sale .item .thumb {
     float: left;
-    margin-right: 1.5em;
+    margin-right: 1em;
+}
+
+#for-sale .inline-img {
+    width: 100%;
+    max-width: 800px;
 }
 
 @media screen and (min-width: 801px) {
