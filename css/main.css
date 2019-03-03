@@ -2,6 +2,10 @@ body {
   font-family: Palatino, Times New Roman, Serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(81,24,0);
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -393,10 +397,10 @@ ul {
 }
 
 #for-sale-details .description {
-	padding: 0.5em 2em;
-	border: 1px solid #ccc;
-	margin-bottom: 8px;
-	background-color: rgba(255,255,255,0.75);
+    padding: 0.5em 2em;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    background-color: rgba(255,255,255,0.75);
 }
 
 #for-sale .summary {
@@ -438,21 +442,21 @@ ul {
 @media screen and (max-width: 800px) {
   #main-content .content-block {
     display: block;
-	width: 100%;
+    width: 100%;
   }
 
 
   #home-quote, #home-quote:before {
     display: none;
     height: 100%;
-	background: transparent;
+    background: transparent;
   }
 
   #home-quote aside {
     color: rgb(127,107,79);
-	border-left: none;
-	padding-top: 2em;
-	padding-bottom: 1em;
+    border-left: none;
+    padding-top: 2em;
+    padding-bottom: 1em;
   }
 
   nav #drop-down {
@@ -461,21 +465,21 @@ ul {
 
   nav #menu {
     display: none;
-	position: absolute;
-	left: 0;
-	padding: 0;
-	margin-top: -8px;
-	height: 275px;
-	background-color: rgb(59,113,68);
-	box-shadow: 4px 4px 15px #444;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin-top: -8px;
+    height: 275px;
+    background-color: rgb(59,113,68);
+    box-shadow: 4px 4px 15px #444;
   }
 
   #menu li {
     display: block;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	border-bottom: 1px solid rgb(127,167,135);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(127,167,135);
   }
 
   #menu li a {
