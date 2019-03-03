@@ -26,9 +26,9 @@ from our membership.*
 download the registration form. See you in June!*
 </section>
 <section class="content divided">
-<a class="plain" href="#"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
+<a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
 
-<a class="plain" href="#">
+<a class="plain" href="regalia/">
 <h2 class="green-heading">New Style NAMMMR Regalia</h2>
 </a>
 
@@ -36,7 +36,7 @@ download the registration form. See you in June!*
 We also have a limited supply of NAMMMR grill badges available
 while supplies last!
 <br><br>
-Go to our <a href="#">Regalia Page</a> for details!*
+Go to our <a href="regalia/">Regalia Page</a> for details!*
 </section>
 <section class="content">
 <a class="plain" href="https://www.hagerty.com/apps/-/CLLTM"><img id="hagerty-logo" class="section-img" src="img/hagerty-logo.jpg" alt="" /><a>

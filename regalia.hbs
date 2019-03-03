@@ -1,0 +1,30 @@
+---
+layout: main-layout.hbs
+title: Regalia
+base: ../
+---
+<div id="regalia" class="content-padding content-background">
+<div class="order-info">
+   To order, contact Regalia Manager Cathy Gunderson at:
+   <a href="mailto:j-cg@juno.com">j-cg@juno.com</a>
+</div>
+<div class="catalog">
+{{#each collections/regalia}}
+<a class="plain item"
+   href="regalia/{{fileSlug}}/">
+    <img src="photos/{{data/img}}" title="{{data/description}}">
+    <div class="pricing">
+        {{{data/pricing}}}
+    </div>
+</a>
+{{/each}}
+</div>
+<div class="regalia-contact">
+    <p>For questions, or to order contact</p>
+
+    <p>Cathy Gunderson<br>
+    303-791-4902<br>
+    or email<br>
+    <a href="mailto:j‐cg@juno.com">j‐cg@juno.com</a>
+</div>
+</div>
