@@ -10,7 +10,7 @@ title: "LED Lamp Inserts"
 	title="Click to order from www.brittrix.com">
 </a>
 
-Inquires to Lew Palmer: [sales@brittrix.com](sales@brittrix.com)
+Inquires to Lew Palmer: [sales@brittrix.com](mailto:sales@brittrix.com)
 
 To view the full line of products, and to order, visit: 
 [https://www.brittrix.com/](https://www.brittrix.com/)
