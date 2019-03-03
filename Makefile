@@ -24,13 +24,9 @@ newsletter-thumb/%.jpg: newsletters/%.pdf
 	convert -thumbnail 250 $(tmp) $@
 	rm $(tmp)
 
-js/owl.carousel.min.js: node_modules/owl.carousel/dist/owl.carousel.min.js
-	cp $< $@
-	cp node_modules/owl.carousel/dist/assets/*.css css/
-
 assets: $(thumbs) $(photos) $(newsletter_thumbs)
 
-build: assets js/owl.carousel.min.js
+build: assets
 	npx eleventy
 
 serve: assets
