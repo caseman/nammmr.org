@@ -51,7 +51,7 @@ ssh:
 	ssh nammmr56@nammmr.org -p 18765 -i ~/.ssh/sg_rsa
 
 stage: build
-	scp -r -i ~/.ssh/sg_rsa -P 18765 _site/. nammmr56@nammmr.org:public_html/__test__/
+	rsync -rhP -e "ssh -i ${HOME}/.ssh/sg_rsa -p 18765" _site/. nammmr56@nammmr.org:public_html/__test__/
 
 default: build ;
 
