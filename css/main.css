@@ -328,6 +328,11 @@ button.owl-next {
     margin-left: 1em;
 }
 
+.float-left {
+    float: left;
+    margin-right: 1em;
+}
+
 .newsletter img.past {
   height: 200px;
 }
@@ -521,6 +526,27 @@ ul {
     color: green;
 }
 
+.hall-of-fame {
+	font-style: oblique;
+	font-size: 125%;
+	margin-left: 1em;
+}
+
+table.officers {
+	line-height: 1.75em;
+	font-size: 110%;
+	margin: 0 auto;
+}
+
+table.officers td {
+	padding-right: 1em;
+	border-bottom: 1px solid #ccc;
+}
+
+table.officers .title {
+	text-align: right;
+	font-size: 85%;
+}
 
 @media screen and (min-width: 801px) {
   nav #menu {
