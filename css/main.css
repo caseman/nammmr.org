@@ -548,13 +548,13 @@ table.officers .title {
 	font-size: 85%;
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 701px) {
   nav #menu {
     display: inline !important;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   #main-content .content-block {
     display: block;
     width: 100%;
