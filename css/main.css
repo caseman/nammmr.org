@@ -360,6 +360,10 @@ ul {
   display: inline-block;
 }
 
+#newsletters .past-issues {
+  text-align: center;
+}
+
 #newsletters .end-logo {
   width: 150px;
   vertical-align: top;
