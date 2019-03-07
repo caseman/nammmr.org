@@ -98,6 +98,4 @@ Mr. Bill Tantau   1991 - 2012
 </tr>
 </table>
 
-<div style="text-align: center">
-	<img style="width: 90%; max-width: 800px" src="img/m-type-sketch.png" alt="">
-</div>
+<img class="sketch" src="img/m-type-sketch.png" alt="">

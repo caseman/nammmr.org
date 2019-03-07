@@ -45,6 +45,7 @@ module.exports = function(eleventyConfig) {
         "events",
         "newsletters",
         "newsletter-thumb",
+		"join",
         "favicon.jpg",
         "site.webmanifest",
         "robots.txt",
