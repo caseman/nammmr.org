@@ -304,6 +304,16 @@
     "type": "K",
     "model": "KN",
     "year": 1935,
+    "vin": "KN0332",
+    "owner": "Bill & Jeanne Bollendonk",
+    "location": "Colorado, USA",
+    "description": "K Special",
+    "addt_photos": 2
+},
+{
+    "type": "K",
+    "model": "KN",
+    "year": 1935,
     "vin": "KN0389",
     "owner": "Bob & Carolyn Grunau",
     "location": "Ontario, Canada",
