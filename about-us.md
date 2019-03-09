@@ -77,6 +77,11 @@ Mr. Bill Tantau   1991 - 2012
 	<td><a href="mailto:lew@roundaboutmanor.com">lew@roundaboutmanor.com</a></td>
 </tr>
 <tr>
+	<td class="title">Director of Trade Advertising</td>
+	<td>Greg Peek</td>
+	<td><a href="mailto:gpeek001@icloud.com">gpeek001@icloud.com</a></td>
+</tr>
+<tr>
 	<td class="title">Webmaster</td>
 	<td>Casey Duncan</td>
 	<td><a href="mailto:casey.duncan+nammmr@gmail.com">casey.duncan@gmail.com</a></td>
