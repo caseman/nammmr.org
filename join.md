@@ -43,7 +43,7 @@ button below.
 To apply for membership, download our membership application form and submit
 via mail. 
 
-The NAMMMR Purpose & Guidelines document can be found HERE. This document
+The [NAMMMR Purpose & Guidelines document](guidelines-and-purposes)
 contains Definitions and Qualifications for authentic MMM cars as recognised
 by the MGCC UK, Triple-M Register and published in their Register Directory,
 as well as our own.

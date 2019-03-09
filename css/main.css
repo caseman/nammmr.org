@@ -565,6 +565,50 @@ form.paypal {
   text-align: center;
 }
 
+#guidelines ol {
+	counter-reset: item;
+}
+
+#guidelines ol h3 {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+#guidelines ol.top > li:before {
+    color: rgb(81,24,0);
+	font-size: 125%;
+}
+
+#guidelines ol > li {
+	display: block;
+	margin: 0.5em 0;
+}
+
+#guidelines ol li > p, 
+#guidelines ol li > dl {
+	margin-left: 1.75em;
+}
+
+#guidelines ol dt {
+	font-weight: bold;
+}
+
+#guidelines dd {
+	margin-bottom: 0.5em;
+}
+
+#guidelines ul li {
+  list-style-image: none;
+  list-style-type: disc;
+  margin: 0.5em 0;
+}
+
+#guidelines ol > li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 701px) {
   nav #menu {
     display: inline !important;

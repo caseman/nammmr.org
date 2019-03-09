@@ -19,6 +19,11 @@ The members own a total of 217 MMM cars encompassing 21 different models (althou
 have been known to the Register). Publications sent to members in good standing include
 the "N.A. MMM Newsletter" and the "N.A. MMM Annual Directory".
 
+The [NAMMMR Purpose & Guidelines document](guidelines-and-purposes)
+contains Definitions and Qualifications for authentic MMM cars as recognised
+by the MGCC UK, Triple-M Register and published in their Register Directory,
+as well as our own.
+
 <h2 class="divider">Hall of Fame</h2>
 
 <img class="float-right" src="img/hall-of-fame.png" alt="">
