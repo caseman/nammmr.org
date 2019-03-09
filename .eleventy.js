@@ -1,3 +1,4 @@
+var fs = require('fs');
 var handlebars = require('handlebars');
 
 // if-changed helper only renders contents if value differs from last invocation
@@ -35,6 +36,11 @@ function reverse(array) {
     return array;
 }
 
+// Return the modification time in epoch seconds
+function mtime(path) {
+	return (fs.statSync(path).mtimeMs / 1000) | 0;
+}
+
 module.exports = function(eleventyConfig) {
     [
         "img",
@@ -54,6 +60,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addHandlebarsHelper('if-changed', ifChanged);
     eleventyConfig.addHandlebarsHelper('repeat', repeat);
     eleventyConfig.addHandlebarsHelper('reverse', reverse);
+    eleventyConfig.addHandlebarsHelper('mtime', mtime);
 
     return {
         passthroughFileCopy: true
