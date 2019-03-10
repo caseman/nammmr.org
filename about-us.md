@@ -4,6 +4,9 @@ title: About Us
 base: ../
 main-class: content-background content-padding
 ---
+<div class="jump-links learn-more flush-top">
+    <a href="MMM/">Learn More About MMM Cars</a>&nbsp;<span class="arrow">&blacktriangleright;</span>
+</div>
 <h2 class="divider">About the Register</h2>
 
 <img class="float-left" src="img/nammmr-logo-metal.png" alt="">

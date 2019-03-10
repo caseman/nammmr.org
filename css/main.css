@@ -245,10 +245,9 @@ section {
 }
 
 #member-cars aside {
-  text-align: center;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 85%;
+  max-width: 400px;
+  margin-right: 300px;
 }
 
 #member-cars #carousel {
@@ -336,6 +335,10 @@ button.owl-next {
   max-width: 40%;
 }
 
+.flush-top {
+  margin-top: -8px;
+}
+
 .jump-links {
   position: absolute;
   right: 0;
@@ -350,14 +353,22 @@ button.owl-next {
 }
 
 .jump-links a {
+  padding: 0.25em;
   white-space: nowrap;
 }
 
 .jump-links li, 
 .jump-links ul {
   margin: 0;
-  padding: 0.25em;
   display: inline;
+}
+
+.learn-more {
+	margin-left: 250px;
+}
+
+.learn-more a {
+	white-space: normal !important;
 }
 
 .newsletter img.past {
@@ -421,10 +432,11 @@ ul {
   text-align: right;
 }
 
-.back-link .arrow {
+.arrow {
   font-size: 28px;
   position: relative;
-  top: 5px;
+  top: 4px;
+  line-height: 14px;
 }
 
 #for-sale-details img {
@@ -635,6 +647,37 @@ form.paypal {
   font-weight: bold;
 }
 
+#model-lineup {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#model-lineup .model {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 0.75em;
+}
+
+#model-lineup .label * {
+  display: inline;
+}
+
+#model-lineup .label {
+  font-size: 85%;
+  font-style: oblique;
+  overflow: hidden;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+#model-lineup .label h3 {
+	font-size: 130%;
+}
+
+#model-lineup .description {
+	font-size: 85%;
+}
+
 @media screen and (min-width: 701px) {
   nav #menu {
     display: inline !important;
@@ -646,7 +689,7 @@ form.paypal {
   }
 
   .wide-only {
-    display: unset;
+    display: inherit;
   }
 }
 
