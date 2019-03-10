@@ -325,15 +325,39 @@ button.owl-next {
 }
 
 .float-right {
-    float: right;
-    margin-left: 1em;
-	max-width: 40%;
+  float: right;
+  margin-left: 1em;
+  max-width: 40%;
 }
 
 .float-left {
-    float: left;
-    margin-right: 1em;
-	max-width: 40%;
+  float: left;
+  margin-right: 1em;
+  max-width: 40%;
+}
+
+.jump-links {
+  position: absolute;
+  right: 0;
+  margin-left: 200px;
+  text-align: right;
+  background-color: rgba(255,255,255,0.75);
+  padding: 8px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0 0 0 15px;
+  box-shadow: -1px 1px 10px rgba(0,0,0,0.4);
+}
+
+.jump-links a {
+  white-space: nowrap;
+}
+
+.jump-links li, 
+.jump-links ul {
+  margin: 0;
+  padding: 0.25em;
+  display: inline;
 }
 
 .newsletter img.past {
@@ -458,27 +482,27 @@ ul {
 }
 
 #regalia .item {
-	display: inline-block;
-	position: relative;
-	margin: 0;
-	padding: 0;
-	border: 1px solid #ddd;
-	width: 275px;
-	height: 430px;
-	overflow: hidden;
-	text-align: center;
-	vertical-align: top;
-	background-color: #fff;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  width: 275px;
+  height: 430px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fff;
 }
 
 #regalia .pricing {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 48px;
-	vertical-align: middle;
-	font-weight: bold;
-	font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 18px;
     color: green;
 }
 
@@ -496,71 +520,71 @@ ul {
 }
 
 .regalia-contact {
-	font-size: 125%;
-	display: inline-block;
-	padding-left: 1em;
-	padding-right: 1em;
+  font-size: 125%;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
     border: 2px solid #ccc;
-	background-color: rgba(255,255,255,0.4);
-	text-align: center;
+  background-color: rgba(255,255,255,0.4);
+  text-align: center;
 }
 
 #regalia-details {
-	overflow: hidden;
-	height: auto;
+  overflow: hidden;
+  height: auto;
 }
 
 #regalia-details img {
-	float: left;
-	width: 50%;
-	min-width: 360px;
-	max-width: 600px;
-	margin-right: 3%;
-	margin-bottom: 1em;
+  float: left;
+  width: 50%;
+  min-width: 360px;
+  max-width: 600px;
+  margin-right: 3%;
+  margin-bottom: 1em;
 }
 
 #regalia-details .description {
-	margin-bottom: 4em;
-	border-bottom: 1px solid rgb(81,24,0);
-	min-width: 300px;
-	overflow: hidden;
+  margin-bottom: 4em;
+  border-bottom: 1px solid rgb(81,24,0);
+  min-width: 300px;
+  overflow: hidden;
 }
 
 #regalia-details .pricing {
-	font-size: 125%;
-	font-weight: bold;
-	display: inline-block;
+  font-size: 125%;
+  font-weight: bold;
+  display: inline-block;
     color: green;
 }
 
 .hall-of-fame {
-	font-style: oblique;
-	font-size: 125%;
-	margin-left: 1em;
+  font-style: oblique;
+  font-size: 125%;
+  margin-left: 1em;
 }
 
 table.officers {
-	line-height: 1.75em;
-	font-size: 110%;
-	margin: 0 auto;
+  line-height: 1.75em;
+  font-size: 110%;
+  margin: 0 auto;
 }
 
 table.officers td {
-	padding-right: 1em;
-	border-bottom: 1px solid #ccc;
+  padding-right: 1em;
+  border-bottom: 1px solid #ccc;
 }
 
 table.officers .title {
-	text-align: right;
-	font-size: 85%;
+  text-align: right;
+  font-size: 85%;
 }
 
 img.sketch {
-	clear: both;
-	width: 90%; 
-	max-width: 800px;
-	display: block;
-	margin: 8px auto;
+  clear: both;
+  width: 90%; 
+  max-width: 800px;
+  display: block;
+  margin: 8px auto;
 }
 
 form.paypal {
@@ -568,35 +592,35 @@ form.paypal {
 }
 
 #guidelines ol {
-	counter-reset: item;
+  counter-reset: item;
 }
 
 #guidelines ol h3 {
-	display: inline-block;
-	margin-bottom: 0;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 #guidelines ol.top > li:before {
     color: rgb(81,24,0);
-	font-size: 125%;
+  font-size: 125%;
 }
 
 #guidelines ol > li {
-	display: block;
-	margin: 0.5em 0;
+  display: block;
+  margin: 0.5em 0;
 }
 
 #guidelines ol li > p, 
 #guidelines ol li > dl {
-	margin-left: 1.75em;
+  margin-left: 1.75em;
 }
 
 #guidelines ol dt {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 #guidelines dd {
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #guidelines ul li {
@@ -615,14 +639,26 @@ form.paypal {
   nav #menu {
     display: inline !important;
   }
+
+  #pin-to-top.pinned {
+    position: fixed;
+    top: 0;
+  }
+
+  .wide-only {
+    display: unset;
+  }
 }
 
 @media screen and (max-width: 700px) {
+  .wide-only {
+    display: none !important;
+  }
+
   #main-content .content-block {
     display: block;
     width: 100%;
   }
-
 
   #home-quote, #home-quote:before {
     display: none;

@@ -4,7 +4,15 @@ title: For Sale
 base: ../
 ---
 <div id="for-sale" class="content-background">
-<h2 class="divider">Cars For Sale</h2>
+<div id="pin-to-top" class="jump-links">
+  <b class="wide-only">Jump To:</b>
+  <ul>
+    <li class="wide-only"><a href="for-sale/#cars">Cars For Sale</a></li>
+	<li><a href="for-sale/#parts">Parts For Sale</a></li>
+	<li><a href="for-sale/#wanted">Parts Wanted</a></li>
+  </ul>
+</div>
+<a name="cars"></a><h2 class="divider">Cars For Sale</h2>
 {{#each (reverse collections/cars-for-sale)}}
 <a class="plain content-padding item {{#unless @last}}divided{{/unless}}"
    href="for-sale/{{fileSlug}}/">
@@ -17,7 +25,7 @@ base: ../
 </a>
 {{/each}}
 {{#if collections/parts-for-sale}}
-<h2 class="divider">Parts For Sale</h2>
+<a name="parts"></a><h2 class="divider">Parts For Sale</h2>
 {{#each (reverse collections/parts-for-sale)}}
 <div class="content-padding item {{#unless @last}}divided{{/unless}}">
     <h3>{{data/title}}</h3>
@@ -25,7 +33,7 @@ base: ../
 </div>
 {{/each}}
 {{/if}}
-<h2 class="divider">Parts Wanted</h2>
+<a name="wanted"></a><h2 class="divider">Parts Wanted</h2>
 <div class="content-padding">
     <p><strong>Wanted:</strong>
     In search of 4 M-Type wheel hubs (late-type) in good condition.</p>
