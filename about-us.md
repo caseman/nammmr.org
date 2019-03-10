@@ -67,7 +67,7 @@ Mr. Bill Tantau   1991 - 2012
 <tr>
 	<td class="title">Treasurer</td>
 	<td>Jack Schneider</td>
-	<td><a href="mailto:britjack67@gmail.com">britjack67@gmail.com</a></td>
+	<td><a href="mailto:britjack@comcast.net">britjack@comcast.net</a></td>
 </tr>
 <tr>
 	<td class="title">Director of Register Communications</td>
