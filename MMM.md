@@ -4,7 +4,10 @@ title: Midget, Magna and Magnette
 base: ../
 main-class: content-background content-padding
 ---
-<h2 class="divider">Midget, Magna and Magnette...</h2>
+<h2 class="divider">
+    <img src="img/mini-m-type.png" alt="" title="MG M Type Midget">
+    Midget, Magna and Magnette...
+</h2>
 
 <img class="float-right" src="thumb/2BM2273.jpg" title="1930 M Type Midget Brooklands 12/12 Racer">
 
