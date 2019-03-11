@@ -5,7 +5,9 @@ base: ../
 main-class: content-background content-padding
 ---
 <div class="jump-links learn-more flush-top">
-    <a href="MMM/">Learn More About MMM Cars</a>&nbsp;<span class="arrow">&blacktriangleright;</span>
+    <a href="MMM/">
+        Learn More About MMM Cars
+    </a>&nbsp;<span class="arrow">&blacktriangleright;</span>
 </div>
 <h2 class="divider">About the Register</h2>
 
@@ -45,69 +47,69 @@ Mr. Bill Tantau   1991 - 2012
 
 <table class="officers">
 <tr>
-	<td class="title">Chairman</td>
-	<td>Jack Kahler</td>
-	<td><a href="mailto:mgjack@aol.com">mgjack@aol.com</a></td>
+    <td class="title">Chairman</td>
+    <td>Jack Kahler</td>
+    <td><a href="mailto:mgjack@aol.com">mgjack@aol.com</a></td>
 </tr>
 <tr>
-	<td class="title">Past Chairman</td>
-	<td>Bill Tantau</td>
-	<td><a href="mailto:bill707@earthlink.net">bill707@earthlink.net</a></td>
+    <td class="title">Past Chairman</td>
+    <td>Bill Tantau</td>
+    <td><a href="mailto:bill707@earthlink.net">bill707@earthlink.net</a></td>
 </tr>
 <tr>
-	<td class="title">Vice Chairman</td>
-	<td>Tom Metcalf</td>
-	<td><a href="mailto:MGTOM@zoominternet.net">MGTOM@zoominternet.net</a></td>
+    <td class="title">Vice Chairman</td>
+    <td>Tom Metcalf</td>
+    <td><a href="mailto:MGTOM@zoominternet.net">MGTOM@zoominternet.net</a></td>
 </tr>
 <tr>
-	<td class="title">Secretary</td>
-	<td>Alan Magnuson</td>
-	<td><a href="mailto:alanmg1978@gmail.com">alanmg1978@gmail.com</a></td>
+    <td class="title">Secretary</td>
+    <td>Alan Magnuson</td>
+    <td><a href="mailto:alanmg1978@gmail.com">alanmg1978@gmail.com</a></td>
 </tr>
 <tr>
-	<td class="title">Treasurer</td>
-	<td>Jack Schneider</td>
-	<td><a href="mailto:britjack@comcast.net">britjack@comcast.net</a></td>
+    <td class="title">Treasurer</td>
+    <td>Jack Schneider</td>
+    <td><a href="mailto:britjack@comcast.net">britjack@comcast.net</a></td>
 </tr>
 <tr>
-	<td class="title">Director of Register Communications</td>
-	<td>David Lawley</td>
-	<td><a href="mailto:mmmeditor@rogers.com">mmmeditor@rogers.com</a></td>
+    <td class="title">Director of Register Communications</td>
+    <td>David Lawley</td>
+    <td><a href="mailto:mmmeditor@rogers.com">mmmeditor@rogers.com</a></td>
 </tr>
 <tr>
-	<td class="title">Director of Register Events</td>
-	<td>Sarah Richey</td>
-	<td><a href="mailto:srichey52@gmail.com">srichey52@gmail.com</a></td>
+    <td class="title">Director of Register Events</td>
+    <td>Sarah Richey</td>
+    <td><a href="mailto:srichey52@gmail.com">srichey52@gmail.com</a></td>
 </tr>
 <tr>
-	<td class="title">Registrar</td>
-	<td>Lew Palmer</td>
-	<td><a href="mailto:lew@roundaboutmanor.com">lew@roundaboutmanor.com</a></td>
+    <td class="title">Registrar</td>
+    <td>Lew Palmer</td>
+    <td><a href="mailto:lew@roundaboutmanor.com">lew@roundaboutmanor.com</a></td>
 </tr>
 <tr>
-	<td class="title">Director of Trade Advertising</td>
-	<td>Greg Peek</td>
-	<td><a href="mailto:gpeek001@icloud.com">gpeek001@icloud.com</a></td>
+    <td class="title">Director of Trade Advertising</td>
+    <td>Greg Peek</td>
+    <td><a href="mailto:gpeek001@icloud.com">gpeek001@icloud.com</a></td>
 </tr>
 <tr>
-	<td class="title">Webmaster</td>
-	<td>Casey Duncan</td>
-	<td><a href="mailto:casey.duncan+nammmr@gmail.com">casey.duncan@gmail.com</a></td>
+    <td class="title">Webmaster</td>
+    <td>Casey Duncan</td>
+    <td><a href="mailto:casey.duncan+nammmr@gmail.com">casey.duncan@gmail.com</a></td>
 </tr>
 <tr>
-	<td class="title">Manager of Regalia</td>
-	<td>Cathy Gunderson</td>
-	<td><a href="mailto:j-cg@juno.com">j-cg@juno.com</a></td>
+    <td class="title">Manager of Regalia</td>
+    <td>Cathy Gunderson</td>
+    <td><a href="mailto:j-cg@juno.com">j-cg@juno.com</a></td>
 </tr>
 <tr>
-	<td class="title">Technical Coordinator</td>
-	<td>Gary Krukoski</td>
-	<td><a href="mailto:garykrukoski@yahoo.com">garykrukoski@yahoo.com</a></td>
+    <td class="title">Technical Coordinator</td>
+    <td>Gary Krukoski</td>
+    <td><a href="mailto:garykrukoski@yahoo.com">garykrukoski@yahoo.com</a></td>
 </tr>
 <tr>
-	<td class="title">Register Historian</td>
-	<td>Philip Anderson</td>
-	<td><a href="mailto:panderson@northpark.edu">panderson@northpark.edu</a></td>
+    <td class="title">Register Historian</td>
+    <td>Philip Anderson</td>
+    <td><a href="mailto:panderson@northpark.edu">panderson@northpark.edu</a></td>
 </tr>
 </table>
 
