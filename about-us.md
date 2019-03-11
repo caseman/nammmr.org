@@ -5,7 +5,7 @@ base: ../
 main-class: content-background content-padding
 ---
 <div class="jump-links learn-more flush-top">
-    <a href="MMM/">
+    <a href="MMM/"><img src="img/mini-m-type.png" alt=""></a><a href="MMM/">
         Learn More About MMM Cars
     </a>&nbsp;<span class="arrow">&blacktriangleright;</span>
 </div>
