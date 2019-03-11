@@ -29,7 +29,7 @@ download the registration form. See you in June!*
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
 
 <a class="plain" href="regalia/">
-<h2 class="green-heading">New Style NAMMMR Regalia</h2>
+<h2 class="green-heading">New NAMMMR Regalia</h2>
 </a>
 
 *Clothing & accessory items are now available for purchase.
