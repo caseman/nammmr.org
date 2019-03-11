@@ -58,9 +58,11 @@ base: ../
             </div>
         </div>
     </section>
+	<!--
     <div class="back-link">
         <a href="events-archive/">Previous Years' Events</a>
         <span class="arrow">&blacktriangleright;</span>
     </div>
+	-->
 </div>
 
