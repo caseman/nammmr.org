@@ -253,22 +253,25 @@ section {
 
 #member-cars #carousel {
     max-width: 800px;
-    max-height: 500px;
+    height: auto;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+}
+
+#member-cars .owl-item div {
+    position: relative;
 }
 
 #member-cars #carousel .caption {
-  position: relative;
+  position: absolute;
+  width: 100%;
   text-align: center;
-  font-weight: bold;
-  margin-top: -3em;
+  font-weight: normal;
+  bottom: -12px;
+  background-color: rgba(0,0,0,0.4);
   margin-bottom: 0.5em;
-  font-size: 150%;
+  font-size: 135%;
   color: white;
-  text-shadow:
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 
 #carousel button.owl-prev,
@@ -293,13 +296,13 @@ section {
 }
 
 button.owl-prev {
-    top: 45%;
+    top: 35%;
     padding: 16px;
 }
 
 button.owl-next {
     right: 0;
-    top: 45%;
+    top: 35%;
     padding: 16px;
 }
 
