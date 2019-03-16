@@ -51,8 +51,8 @@ base: ../
                     <img class="shadowed" src="events/2019-NAMMMR-bowling-green-flyer.png">
                     <div class="caption">Event Flyer</div>
                 </a>
-                <a class="doc-thumb" href="events/2019-NAMMMR-bowling-green-registration.pdf">
-                    <img class="shadowed" src="events/2019-NAMMMR-bowling-green-registration.png">
+                <a class="doc-thumb" href="events/2019-NAMMMR-bowling-green-registration.pdf?cb=aabbaa">
+                    <img class="shadowed" src="events/2019-NAMMMR-bowling-green-registration.png?cb=aabbaa">
                     <div class="caption">Registration Form</div>
                 </a>
             </div>
