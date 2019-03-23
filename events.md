@@ -58,6 +58,33 @@ base: ../
             </div>
         </div>
     </section>
+    <section class="event">
+        <h2 class="divider">67th Annual Rallye Glenwood Springs</h2>
+        <a class="plain" href="https://mgcc.org/rallye-glenwood-springs/">
+        <img class="logo" src="img/2019-glenwood-logo.jpg" alt="Celebrating 90 years of MG sports cars">
+        </a>
+        <p class="date">June 7-9, 2019</p>
+
+The MG Car Club - Rocky Mountain Centre invites you to join us for the
+67th Annual Rallye Glenwood Springs, the oldest continually-held
+Time-Speed-Distance Rallye in the United States, on Friday, Saturday,
+and Sunday, June 7-9, 2019.
+
+The weekend is a marvelous opportunity for sports car enthusiasts of
+every marque to come together for sunny days, cool nights, and unique
+events.  The fun begins on Friday with the Time-Speed-Distance Rallye,
+which will take you through some beautiful scenery on the way to
+Glenwood Springs.  Saturday’s main event is a more relaxed tour, with
+a fun murder-mystery twist.
+
+To celebrate 90 years of MG sports cars, this year's featured MG model is the
+original M Type Midget. We are expecting a number of MMM cars to be present
+for this year's car show.
+
+For more information, and to register, visit the
+<a href="https://mgcc.org/rallye-glenwood-springs/">Rallye Glenwood Springs page</a> 
+on the MGCC website.
+    </section>
 	<!--
     <div class="back-link">
         <a href="events-archive/">Previous Years' Events</a>
