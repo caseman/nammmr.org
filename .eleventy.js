@@ -52,7 +52,8 @@ module.exports = function(eleventyConfig) {
         "newsletters",
         "newsletter-thumb",
 		"join",
-        "favicon.jpg",
+        "favicon.ico",
+        "favicon.png",
         "site.webmanifest",
         "robots.txt",
     ].forEach(path => eleventyConfig.addPassthroughCopy(path));
