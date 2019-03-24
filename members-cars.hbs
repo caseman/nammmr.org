@@ -70,10 +70,17 @@ window.onhashchange = showCurrentPhoto;
 function showPhoto(e, info) {
     if (!info) return;
     var img = e.find('img');
+    var caption = e.find('.caption');
+    caption && caption.html('&nbsp;<br>&nbsp;');
+    function setCaption() {
+        caption && caption.html(info.caption);
+    }
     if (img.length) {
+        img.on('load', setCaption);
         img.attr('src', info.img);
     } else {
         img = $('<img id="carousel-img" src="' + info.img + '" alt="">');
+        img.on('load', setCaption);
         img.appendTo(e.find('.element'));
         detectSwipe('carousel-img', function(_, dir) {
             if (dir === 'left') {
@@ -87,7 +94,6 @@ function showPhoto(e, info) {
         window.location.pathname + (carArray[info.index + 1] || info).id);
     e.find('a.prev').attr('href', 
         window.location.pathname + (carArray[info.index - 1] || info).id);
-    e.find('.caption').html(info.caption);
     e.show(200);
 }
 
