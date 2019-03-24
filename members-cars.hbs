@@ -89,9 +89,6 @@ function showPhoto(e, info) {
         window.location.pathname + (carArray[info.index - 1] || info).id);
     e.find('.caption').html(info.caption);
     e.show(200);
-    /Mobile/.test(navigator.userAgent) && setTimeout(function () {
-		window.scrollTo(0, window.pageYOffset + 1);
-    }, 1000);
 }
 
 function documentReady() {
