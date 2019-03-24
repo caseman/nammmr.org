@@ -78,10 +78,10 @@ function showPhoto(e, info) {
         img.on('load', setCaption);
         img.attr('src', info.img);
     } else {
-        img = $('<img id="carousel-img" src="' + info.img + '" alt="">');
+        img = $('<img src="' + info.img + '" alt="">');
         img.on('load', setCaption);
         img.appendTo(e.find('.element'));
-        detectSwipe('carousel-img', function(_, dir) {
+        detectSwipe(img[0], function(_, dir) {
             if (dir === 'left') {
                 window.location.href =  e.find('a.next').attr('href');
             } else if (dir === 'right') {
@@ -100,7 +100,7 @@ function documentReady() {
     showCurrentPhoto();
 }
 
-function detectSwipe(id, f) {
+function detectSwipe(element, f) {
     var detect = {
         startX: 0,
         startY: 0,
@@ -110,9 +110,7 @@ function detectSwipe(id, f) {
         maxX: 30,   // max X difference for vertical swipe
         minY: 50,   // min Y swipe for vertial swipe
         maxY: 60    // max Y difference for horizontal swipe
-    },
-        direction = null,
-        element = document.getElementById(id);
+    };
 
     element.addEventListener('touchstart', function (event) {
         var touch = event.touches[0];
@@ -133,17 +131,13 @@ function detectSwipe(id, f) {
             (Math.abs(detect.endX - detect.startX) > detect.minX)
                 && (Math.abs(detect.endY - detect.startY) < detect.maxY)
         ) {
-            direction = (detect.endX > detect.startX) ? 'right' : 'left';
+            f(element, detect.endX > detect.startX ? 'right' : 'left');
         } else if (
             // Vertical move.
             (Math.abs(detect.endY - detect.startY) > detect.minY)
                 && (Math.abs(detect.endX - detect.startX) < detect.maxX)
         ) {
-            direction = (detect.endY > detect.startY) ? 'down' : 'up';
-        }
-
-        if ((direction !== null) && (typeof f === 'function')) {
-            f(element, direction);
+            f(element, detect.endY > detect.startY ? 'down' : 'up');
         }
     });
 }
