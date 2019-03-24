@@ -11,7 +11,5 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1"
   },
-  "dependencies": {
-    "owl.carousel": "^2.3.4"
-  }
+  "dependencies": {}
 }

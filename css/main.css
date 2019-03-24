@@ -251,14 +251,20 @@ section {
 }
 
 #member-cars #carousel {
+    width: 100%;
     max-width: 800px;
-    height: auto;
+    max-height: 100%;
     background-color: rgba(0,0,0,0.6);
-    overflow: hidden;
 }
 
-#member-cars .owl-item div {
-    position: relative;
+#member-cars #carousel .element {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#member-cars #carousel img {
+    width: 100%;
+    vertical-align: bottom;
 }
 
 #member-cars #carousel .caption {
@@ -271,16 +277,21 @@ section {
   margin-bottom: 0.5em;
   font-size: 135%;
   color: white;
+  z-index: 10;
 }
 
-#carousel button.owl-prev,
-#carousel button.owl-next,
-#carousel button.close {
+#carousel a.prev,
+#carousel a.next,
+#carousel a.close {
   position: fixed;
   outline: none;
   border: none;
-  font-size: 96px;
+  font-size: 72px;
   color: white;
+  background: transparent;
+  cursor: pointer;
+  padding: 6px;
+  top: 35%;
   text-shadow:
     -1px -1px 0 #000,
      1px -1px 0 #000,
@@ -288,32 +299,26 @@ section {
      1px 1px 0 #000;
 }
 
-#carousel button.owl-prev:hover,
-#carousel button.owl-next:hover,
-#carousel button.close:hover {
-    text-shadow:0px 0px 8px white;
+#carousel a.prev:hover,
+#carousel a.next:hover,
+#carousel a.close:hover {
+    background-color: rgba(0,0,0,0.25);
 }
 
-button.owl-prev {
-    top: 35%;
-    padding: 16px;
+a.prev {
+    left: 0;
 }
 
-button.owl-next {
+a.next {
     right: 0;
-    top: 35%;
-    padding: 16px;
 }
 
-#carousel button.close {
+#carousel a.close {
     position: fixed;
     font-size: 48px;
-    color: white;
-    background: transparent;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    right: 10px;
     z-index: 99;
-    cursor: pointer;
 }
 
 .shadowed {
@@ -746,6 +751,19 @@ form.paypal {
    padding: 8px 22px;
    margin: 0;
    display: block;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  #member-cars #carousel .element img {
+    margin-top: -7%;
+    margin-bottom: -7%;
+  }
+}
+
+@media screen and (min-height: 701px) {
+  #carousel .element img {
+    margin-top: 0;
   }
 }
 

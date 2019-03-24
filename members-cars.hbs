@@ -1,6 +1,6 @@
 ---
 title: Members' Cars
-layout: carousel.hbs
+layout: main-layout.hbs
 base: ../
 ---
 <div class="jump-links">
@@ -17,7 +17,7 @@ base: ../
 </aside>
 {{#each cars}}
     {{#if-changed type}} <h2 class="divider">{{type}} Type</h2>{{/if-changed}}
-    <a class="car" href="members-cars/#{{vin}}" class="plain" onclick="showCarousel()">
+    <a class="car" href="members-cars/#{{vin}}" class="plain">
         <img src="thumb/{{vin}}.jpg" alt="{{year}} MG {{model}}" 
              title="click to enlarge">
         <div class="car-info">{{year}} {{model}} {{vin}}</div>
@@ -27,47 +27,122 @@ base: ../
     </a>
 {{/each}}
 
-    <div id="carousel" aria-modal="true" class="modal owl-carousel owl-theme">
-        {{#each cars}}
-        <div>
-            <img class="owl-lazy" data-hash="{{vin}}" data-src="photos/{{vin}}.jpg">
-            <div class="caption">{{year}} MG {{model}}<br>{{owner}}</div>
+    <div id="carousel" aria-modal="true" class="modal">
+        <div class="element">
+            <a href="{{page.url}}#" class="plain close" aria-label="close" onclick="$('#carousel').hide(200)">&times;</a>
+            <a class="plain prev" aria-label="previous"">&lang;</a>
+            <a class="plain next" aria-label="next">&rang;</a>
+            <div class="caption"></div>
         </div>
-        {{#repeat addt_photos}}
-        <div>
-            <img class="owl-lazy" data-hash="{{vin}}-{{@count}}" data-src="photos/{{vin}}-{{@count}}.jpg">
-            <div class="caption">{{year}} MG {{model}}<br>{{owner}}</div>
-        </div>
-        {{/repeat}}
-        {{/each}}
     </div>
 </div>
 
 <script>
-function documentReady() {
-    $('#carousel').owlCarousel({
-        items: 1,
-        URLhashListener: true,
-        startPosition: 'URLHash',
-        lazyLoad: true,
-        lazyLoadEager: 1,
-        loop: true,
-        nav: true,
-        dots: false,
-    });
-    $('#carousel .owl-nav').append(
-        '<button type="button" role="presentation" class="close" aria-label="close" onclick="$(\'#carousel\').hide(150)">&times;</button>'
-    );
-    if (!window.location.hash) {
-        $('#carousel').hide();
-    }
+// World's stupidest image carousel
+var carArray = [
+{{#each cars}}
+    {
+        id: "#{{vin}}",
+        caption: "{{year}} MG {{model}}<br>{{owner}}",
+        img: "photos/{{vin}}.jpg",
+    },
+{{#repeat addt_photos}}
+    {
+        id: "#{{vin}}-{{@count}}",
+        caption: "{{year}} MG {{model}}<br>{{owner}}",
+        img: "photos/{{vin}}-{{@count}}.jpg",
+    },
+{{/repeat}}
+{{/each}}
+];
+var cars = {};
+for (var i = 0; i < carArray.length; i++) {
+    var c = carArray[i];
+    c.index = i;
+    cars[c.id] = c;
 }
 
-function showCarousel() {
-    var carousel = $('#carousel');
-    carousel.show();
-    setTimeout(function() {
-        carousel.trigger('refresh.owl.carousel')
-    }, 0);
+function showCurrentPhoto() {
+    showPhoto($('#carousel'), cars[window.location.hash]);
+}
+window.onhashchange = showCurrentPhoto;
+
+function showPhoto(e, info) {
+    if (!info) return;
+    var img = e.find('img');
+    if (img.length) {
+        img.attr('src', info.img);
+    } else {
+        img = $('<img id="carousel-img" src="' + info.img + '" alt="">');
+        img.appendTo(e.find('.element'));
+        detectSwipe('carousel-img', function(_, dir) {
+            if (dir === 'left') {
+                window.location.href =  e.find('a.next').attr('href');
+            } else if (dir === 'right') {
+                window.location.href =  e.find('a.prev').attr('href');
+            }
+        });
+    }
+    e.find('a.next').attr('href', 
+        window.location.pathname + (carArray[info.index + 1] || info).id);
+    e.find('a.prev').attr('href', 
+        window.location.pathname + (carArray[info.index - 1] || info).id);
+    e.find('.caption').html(info.caption);
+    e.show(200);
+    /Mobile/.test(navigator.userAgent) && setTimeout(function () {
+		window.scrollTo(0, window.pageYOffset + 1);
+    }, 1000);
+}
+
+function documentReady() {
+    showCurrentPhoto();
+}
+
+function detectSwipe(id, f) {
+    var detect = {
+        startX: 0,
+        startY: 0,
+        endX: 0,
+        endY: 0,
+        minX: 30,   // min X swipe for horizontal swipe
+        maxX: 30,   // max X difference for vertical swipe
+        minY: 50,   // min Y swipe for vertial swipe
+        maxY: 60    // max Y difference for horizontal swipe
+    },
+        direction = null,
+        element = document.getElementById(id);
+
+    element.addEventListener('touchstart', function (event) {
+        var touch = event.touches[0];
+        detect.startX = touch.screenX;
+        detect.startY = touch.screenY;
+    });
+
+    element.addEventListener('touchmove', function (event) {
+        event.preventDefault();
+        var touch = event.touches[0];
+        detect.endX = touch.screenX;
+        detect.endY = touch.screenY;
+    });
+
+    element.addEventListener('touchend', function (event) {
+        if (
+            // Horizontal move.
+            (Math.abs(detect.endX - detect.startX) > detect.minX)
+                && (Math.abs(detect.endY - detect.startY) < detect.maxY)
+        ) {
+            direction = (detect.endX > detect.startX) ? 'right' : 'left';
+        } else if (
+            // Vertical move.
+            (Math.abs(detect.endY - detect.startY) > detect.minY)
+                && (Math.abs(detect.endX - detect.startX) < detect.maxX)
+        ) {
+            direction = (detect.endY > detect.startY) ? 'down' : 'up';
+        }
+
+        if ((direction !== null) && (typeof f === 'function')) {
+            f(element, direction);
+        }
+    });
 }
 </script>
