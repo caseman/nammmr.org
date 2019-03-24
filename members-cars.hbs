@@ -38,107 +38,24 @@ base: ../
 </div>
 
 <script>
-// World's stupidest image carousel
-var carArray = [
-{{#each cars}}
-    {
-        id: "#{{vin}}",
-        caption: "{{year}} MG {{model}}<br>{{owner}}",
-        img: "photos/{{vin}}.jpg",
-    },
-{{#repeat addt_photos}}
-    {
-        id: "#{{vin}}-{{@count}}",
-        caption: "{{year}} MG {{model}}<br>{{owner}}",
-        img: "photos/{{vin}}-{{@count}}.jpg",
-    },
-{{/repeat}}
-{{/each}}
-];
-var cars = {};
-for (var i = 0; i < carArray.length; i++) {
-    var c = carArray[i];
-    c.index = i;
-    cars[c.id] = c;
-}
+    var cars = [
+    {{#each cars}}
+        {
+            id: "#{{vin}}",
+            caption: "{{year}} MG {{model}}<br>{{owner}}",
+            img: "photos/{{vin}}.jpg",
+        },
+    {{#repeat addt_photos}}
+        {
+            id: "#{{vin}}-{{@count}}",
+            caption: "{{year}} MG {{model}}<br>{{owner}}",
+            img: "photos/{{vin}}-{{@count}}.jpg",
+        },
+    {{/repeat}}
+    {{/each}}
+    ];
 
-function showCurrentPhoto() {
-    showPhoto($('#carousel'), cars[window.location.hash]);
-}
-window.onhashchange = showCurrentPhoto;
-
-function showPhoto(e, info) {
-    if (!info) return;
-    var img = e.find('img');
-    var caption = e.find('.caption');
-    function setCaption() {
-        caption && caption.html(info.caption);
+    function documentReady() {
+        new Carousel($('#carousel'), cars, true);
     }
-    if (img.length) {
-        img.on('load', setCaption);
-        img.attr('src', info.img);
-    } else {
-        img = $('<img src="' + info.img + '" alt="">');
-        img.on('load', setCaption);
-        img.appendTo(e.find('.element'));
-        detectSwipe(img[0], function(_, dir) {
-            if (dir === 'left') {
-                window.location.href =  e.find('a.next').attr('href');
-            } else if (dir === 'right') {
-                window.location.href =  e.find('a.prev').attr('href');
-            }
-        });
-    }
-    e.find('a.next').attr('href', 
-        window.location.pathname + (carArray[info.index + 1] || info).id);
-    e.find('a.prev').attr('href', 
-        window.location.pathname + (carArray[info.index - 1] || info).id);
-    e.show(200);
-}
-
-function documentReady() {
-    showCurrentPhoto();
-}
-
-function detectSwipe(element, f) {
-    var detect = {
-        startX: 0,
-        startY: 0,
-        endX: 0,
-        endY: 0,
-        minX: 30,   // min X swipe for horizontal swipe
-        maxX: 30,   // max X difference for vertical swipe
-        minY: 50,   // min Y swipe for vertial swipe
-        maxY: 60    // max Y difference for horizontal swipe
-    };
-
-    element.addEventListener('touchstart', function (event) {
-        var touch = event.touches[0];
-        detect.startX = touch.screenX;
-        detect.startY = touch.screenY;
-    });
-
-    element.addEventListener('touchmove', function (event) {
-        event.preventDefault();
-        var touch = event.touches[0];
-        detect.endX = touch.screenX;
-        detect.endY = touch.screenY;
-    });
-
-    element.addEventListener('touchend', function (event) {
-        if (
-            // Horizontal move.
-            (Math.abs(detect.endX - detect.startX) > detect.minX)
-                && (Math.abs(detect.endY - detect.startY) < detect.maxY)
-        ) {
-            f(element, detect.endX > detect.startX ? 'right' : 'left');
-        } else if (
-            // Vertical move.
-            (Math.abs(detect.endY - detect.startY) > detect.minY)
-                && (Math.abs(detect.endX - detect.startX) < detect.maxX)
-        ) {
-            f(element, detect.endY > detect.startY ? 'down' : 'up');
-        }
-    });
-}
 </script>
