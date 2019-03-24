@@ -4,7 +4,7 @@ if (typeof documentReady === 'function') {
 
 $(document).ready(function () {
     var pinned = $('#pin-to-top');
-    if (pinned) {
+    if (pinned.length) {
         var top = pinned.offset().top - parseFloat(pinned.css('marginTop'));
 
         $(window).scroll(function (event) {
