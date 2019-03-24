@@ -71,7 +71,6 @@ function showPhoto(e, info) {
     if (!info) return;
     var img = e.find('img');
     var caption = e.find('.caption');
-    caption && caption.html('&nbsp;<br>&nbsp;');
     function setCaption() {
         caption && caption.html(info.caption);
     }
