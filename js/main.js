@@ -21,17 +21,19 @@ Carousel.prototype.showPhoto = function(id) {
     var item = this.items[id];
     if (!item) return;
     var findEl = this.element.find.bind(this.element);
+    var element = this.element;
     var img = findEl('img');
     var caption = findEl('.caption');
-    function setCaption() {
+    function imgLoaded() {
         caption && caption.html(item.caption);
+        element.show(200);
     }
     if (img.length) {
-        img.on('load', setCaption);
+        img.on('load', imgLoaded);
         img.attr('src', item.img);
     } else {
         img = $('<img src="' + item.img + '" alt="">');
-        img.on('load', setCaption);
+        img.on('load', imgLoaded);
         img.appendTo(findEl('.element'));
         detectSwipe(img[0], function(_, dir) {
             if (dir === 'left') {
@@ -45,7 +47,6 @@ Carousel.prototype.showPhoto = function(id) {
         window.location.pathname + (this.itemArray[item.index + 1] || item).id);
     findEl('a.prev').attr('href', 
         window.location.pathname + (this.itemArray[item.index - 1] || item).id);
-    this.element.show(200);
 }
 
 Carousel.prototype.showCurrentPhoto = function(bind) {
