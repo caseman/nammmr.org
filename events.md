@@ -44,16 +44,21 @@ base: ../
             love to have any and all M-types in attendance for our meet, along
             with all of our beloved MMM motors!<p>
             <div class="details">
-                <h3 class="green-heading">Flyer and Registration Form</h3>
-                <p>Click below to download the flyer and registration form for the
-                event. We hope to see you in June!</p>
+                <h3 class="green-heading">More Information</h3>
+                <p>Click below to download the registration form, flyer, and
+                schedule of activites for the event. We hope to see you in
+                June!</p>
+                <a class="doc-thumb" href="events/2019-NAMMMR-bowling-green-registration.pdf?cb=aabbaa">
+                    <img class="shadowed" src="events/2019-NAMMMR-bowling-green-registration.png?cb=aabbaa">
+                    <div class="caption">Registration Form</div>
+                </a>
                 <a class="doc-thumb" href="events/2019-NAMMMR-bowling-green-flyer.pdf">
                     <img class="shadowed" src="events/2019-NAMMMR-bowling-green-flyer.png">
                     <div class="caption">Event Flyer</div>
                 </a>
-                <a class="doc-thumb" href="events/2019-NAMMMR-bowling-green-registration.pdf?cb=aabbaa">
-                    <img class="shadowed" src="events/2019-NAMMMR-bowling-green-registration.png?cb=aabbaa">
-                    <div class="caption">Registration Form</div>
+                <a class="doc-thumb" href="events/2019-NAMMMR-bowling-green-schedule.pdf?cb=aabbaa">
+                    <img class="shadowed" src="events/2019-NAMMMR-bowling-green-schedule.png?cb=aabbaa">
+                    <div class="caption">Schedule of Activities</div>
                 </a>
             </div>
         </div>
