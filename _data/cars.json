@@ -75,6 +75,15 @@
 {
     "type": "J",
     "model": "J2",
+    "year": 1932,
+    "vin": "J2351",
+    "owner": "Harry Neilson",
+    "location": "Vancouver BC, Canada",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
     "year": 1933,
     "vin": "J3017",
     "owner": "Bob & Carolyn Grunau",
@@ -261,6 +270,15 @@
     "vin": "PA2108",
     "owner": "Dan Shockey",
     "location": "California, USA",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PB",
+    "year": 1935,
+    "vin": "PB0480",
+    "owner": "Harry Neilson",
+    "location": "Vancouver BC, Canada",
     "description": ""
 },
 {
