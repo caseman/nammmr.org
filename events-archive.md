@@ -8,12 +8,10 @@ base: ../
         <h2 class="divider green-heading">2019 NAMMMR National Meet 
             &mdash; Bowling Green Kentucky</h2>
         <div class="details">
-            <img class="logo" src="img/2019-bowling-green-logo.png"
+            <img class="logo float-left" src="img/2019-bowling-green-logo.png"
                 alt="2019: NAMMMR & Bowling Green Kentucky, Both Geared for Fun!">
+            <img class="float-right wide-only" src="img/m-type-pastoral.jpg">
             <p class="date">June 19 to 22, 2019</p>
-        <div>
-        <div class="details">
-            <img class="feature" src="img/m-type-pastoral.jpg">
             <h3 class="green-heading">M Type Feature Model at Bowling Green!</h3>
             <p>In order to honor 90 years of MMM motoring, the original M-type midget 
             was featured in our 2019 national meet.
