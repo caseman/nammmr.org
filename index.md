@@ -13,17 +13,12 @@ permalink: index.html
 June&nbsp;19&nbsp;to&nbsp;22, 2019</h2>
 </a>
 
-*We will be holding our next National Meet
-on our own! The location will be
-Bowling Green Kentucky.
-Our own Bill & Sarah Richey will be hosting
-our Register in their home city.
-It will be an exciting event
-& we hope to have great participation
-from our membership.*
+*Bill & Sarah Richey hosted our
+national meet in their home city and
+it was a great success!*
 
-*Go to the [Events page](events/) for all the details, and to
-download the registration form. See you in June!*
+*Go to the [Events page](events/) for a recap 
+and photo album*
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>

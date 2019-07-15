@@ -22,6 +22,9 @@ function repeat(times, options) {
         for (var i = 1; i <= times; i++) {
             if (data) {
                 data.count = i;
+                data.first = i === 1;
+                data.second = i === 2;
+                data.last = i === times;
             }
             ret += options.fn(this, { data: data });
         }
