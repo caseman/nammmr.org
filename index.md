@@ -19,7 +19,7 @@ Springs, CO. Plan to stay an extra few days to enjoy all the area has to offer.
 This is the ideal time of year and we couldn’t have picked a better location.
 Of course, we are a bit biased.*
 
-*Stay tuned for more details and registration information coming soon!*
+*See <a href="events">the Events Page</a> for more details. Registration information coming soon!*
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>

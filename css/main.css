@@ -177,7 +177,7 @@ a.plain img {
 
 .green-heading {
   color: green;
-  text-shadow: white 0px 0px 1px;
+  text-shadow: white 0px 0px 2px;
 }
 
 .section-img {
@@ -339,6 +339,17 @@ a.next {
   max-width: 40%;
 }
 
+.full-width {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+.full-width * {
+  width: 100%;
+}
+
 .flush-top {
   margin-top: -8px;
 }
@@ -418,6 +429,10 @@ ul {
   font-size: 125%;
 }
 
+#events .photo {
+  max-height: 300px;
+}
+
 #events img.logo,
 #events img.feature {
   clear: left;
@@ -426,6 +441,16 @@ ul {
   max-width: 25%;
   margin-right: 2em;
   margin-bottom: 2em;
+}
+
+#events .logos {
+  width: 100%;
+  text-align: center;
+}
+
+#events .logos img {
+  padding: 1em;
+  display: inline-block;
 }
 
 .details {
