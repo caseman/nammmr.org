@@ -708,17 +708,10 @@ form.paypal {
     width: 100%;
   }
 
-  #home-quote, #home-quote:before {
+  #home-quote, #home-quote aside, #home-quote:before {
     display: none;
     height: 100%;
     background: transparent;
-  }
-
-  #home-quote aside {
-    color: rgb(127,107,79);
-    border-left: none;
-    padding-top: 2em;
-    padding-bottom: 1em;
   }
 
   nav #drop-down {
