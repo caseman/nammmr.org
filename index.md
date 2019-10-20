@@ -6,19 +6,20 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section id="home-feature" class="divided">
-<a class="plain" href="events/"><img class="section-img" src="img/2019-bowling-green-logo.png" alt="2019: NAMMMR & Bowling Green Kentucky, Both Geared for Fun!" /></a>
+<a class="plain" href="events/"><img class="section-img" src="img/2020-cosprings-meet-logo.png" alt="2020: NAMMMR National Meet Colorado Springs, CO" /></a>
 
 <a class="plain" href="events/">
-<h2 class="green-heading">National&nbsp;Meet:
-June&nbsp;19&nbsp;to&nbsp;22, 2019</h2>
+<h2 class="green-heading">Save the Date!<br>National&nbsp;Meet:
+June&nbsp;1&nbsp;to&nbsp;5, 2020</h2>
 </a>
 
-*Bill & Sarah Richey hosted our
-national meet in their home city and
-it was a great success!*
+*In Association with NAMGAR and the MG Car Club, Rocky Mountain Centre, The
+North American MMM Register will host its annual meet in beautiful Colorado
+Springs, CO. Plan to stay an extra few days to enjoy all the area has to offer.
+This is the ideal time of year and we couldn’t have picked a better location.
+Of course, we are a bit biased.*
 
-*Go to the [Events page](events/) for a recap 
-and photo album*
+*Stay tuned for more details and registration information coming soon!*
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
