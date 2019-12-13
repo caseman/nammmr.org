@@ -6,7 +6,7 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section id="home-feature" class="divided">
-<a class="plain" href="events/"><img class="section-img" src="img/2020-cosprings-meet-logo.png" alt="2020: NAMMMR National Meet Colorado Springs, CO" /></a>
+<a class="plain" href="events/"><img class="section-img" src="img/2020-cosprings-meet-logo.png?cb=0" alt="2020: NAMMMR National Meet Colorado Springs, CO" /></a>
 
 <a class="plain" href="events/">
 <h2 class="green-heading">Save the Date!<br>National&nbsp;Meet:
