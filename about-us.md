@@ -73,8 +73,8 @@ Mr. Bill Tantau   1991 - 2012
 </tr>
 <tr>
     <td class="title">Director of Register Communications</td>
-    <td>David Lawley</td>
-    <td><a href="mailto:mmmeditor@rogers.com">mmmeditor@rogers.com</a></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
 </tr>
 <tr>
     <td class="title">Director of Register Events</td>
