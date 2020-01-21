@@ -9,7 +9,7 @@ permalink: index.html
 <a class="plain" href="events/"><img class="section-img" src="img/2020-cosprings-meet-logo.png?cb=0" alt="2020: NAMMMR National Meet Colorado Springs, CO" /></a>
 
 <a class="plain" href="events/">
-<h2 class="green-heading">Save the Date!<br>National&nbsp;Meet:
+<h2 class="green-heading">Register&nbsp;Now For The NAMMMR National Meet:
 June&nbsp;1&nbsp;to&nbsp;5, 2020</h2>
 </a>
 
@@ -19,7 +19,8 @@ Springs, CO. Plan to stay an extra few days to enjoy all the area has to offer.
 This is the ideal time of year and we couldn’t have picked a better location.
 Of course, we are a bit biased.*
 
-*See <a href="events">the Events Page</a> for more details. Registration information coming soon!*
+*<h3>Go to the <a href="https://gt45.co/product/registration/">GT-45 registration page<a> now to
+register!</h3>*
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
