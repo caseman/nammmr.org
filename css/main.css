@@ -345,9 +345,20 @@ a.next {
   overflow: hidden;
   margin: 0 auto;
   display: block;
+  position: relative;
 }
 .full-width * {
   width: 100%;
+}
+
+.align-bottom {
+  max-width: 1200px;
+  min-height: 350px;
+}
+
+.align-bottom * {
+  position: absolute;
+  bottom: 0;
 }
 
 .flush-top {
