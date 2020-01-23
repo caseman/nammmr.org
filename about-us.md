@@ -72,8 +72,8 @@ Mr. Bill Tantau   1991 - 2012
     <td><a href="mailto:britjack@comcast.net">britjack@comcast.net</a></td>
 </tr>
 <tr>
-    <td class="title">Director of Register Communications</td>
-    <td>&nbsp;</td>
+    <td class="title">Newsletter Editor</td>
+    <td>Tom Wilson</td>
     <td>&nbsp;</td>
 </tr>
 <tr>
