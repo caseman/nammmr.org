@@ -74,7 +74,7 @@ Mr. Bill Tantau   1991 - 2012
 <tr>
     <td class="title">Newsletter Editor</td>
     <td>Tom Wilson</td>
-    <td>&nbsp;</td>
+    <td><a href="mailto:MGTCTom@gmail.com">MGTCTom@gmail.com</a></td>
 </tr>
 <tr>
     <td class="title">Director of Register Events</td>
