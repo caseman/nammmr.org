@@ -56,6 +56,10 @@ stage: build
 live: build
 	rsync -rhP -e "ssh -i ${HOME}/.ssh/sg_rsa -p 18765" _site/. nammmr56@nammmr.org:public_html/
 
+fix-ssh:
+	# Fixes `/bin/bash: No such file or directory` error on ssh
+	curl --GET http://nammmr.org/info.php   
+
 default: build ;
 
 .PHONY: install default clean ultraclean serve build assets
