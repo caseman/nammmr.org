@@ -16,6 +16,7 @@ June&nbsp;1&nbsp;to&nbsp;5, 2020</h2>
 <p class="notice">For the health and safety of our members, 
 our national meet for 2020 has been cancelled due to the COVID-19 pandemic. 
 Additional details have been emailed to our members regarding the cancellation.</p>
+<p class="notice">We wish you all the best of health, and we hope to see you in 2021 in Atlantic City!</p>
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
