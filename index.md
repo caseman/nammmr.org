@@ -9,18 +9,13 @@ permalink: index.html
 <a class="plain" href="events/"><img class="section-img" src="img/2020-cosprings-meet-logo.png?cb=0" alt="2020: NAMMMR National Meet Colorado Springs, CO" /></a>
 
 <a class="plain" href="events/">
-<h2 class="green-heading">Register&nbsp;Now For The NAMMMR National Meet:
+<h2 class="green-heading strikethrough">NAMMMR National Meet:
 June&nbsp;1&nbsp;to&nbsp;5, 2020</h2>
 </a>
 
-*In Association with NAMGAR and the MG Car Club, Rocky Mountain Centre, The
-North American MMM Register will host its annual meet in beautiful Colorado
-Springs, CO. Plan to stay an extra few days to enjoy all the area has to offer.
-This is the ideal time of year and we couldn’t have picked a better location.
-Of course, we are a bit biased.*
-
-*<h3>Go to the <a href="https://gt45.co/product/registration/">GT-45 registration page<a> now to
-register!</h3>*
+<p class="notice">For the health and safety of our members, 
+our national meet for 2020 has been cancelled due to the COVID-19 pandemic. 
+Additional details have been emailed to our members regarding the cancellation.</p>
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>

@@ -814,5 +814,13 @@ footer .content {
   margin: 0.75em;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.notice {
+  font-weight: bold;
+  color: red;
+}
 
 
