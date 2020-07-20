@@ -166,6 +166,15 @@
     "type": "J",
     "model": "J2",
     "year": 1933,
+    "vin": "J4291",
+    "owner": "Dick Zuidema",
+    "location": "Tierra Verde, FL & Lewes, DE",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
     "vin": "J4388",
     "owner": "Bob Ohnstad",
     "location": "Montana, USA",
