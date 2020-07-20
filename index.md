@@ -6,17 +6,19 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section id="home-feature" class="divided">
-<a class="plain" href="events/"><img class="section-img" src="img/2020-cosprings-meet-logo.png?cb=0" alt="2020: NAMMMR National Meet Colorado Springs, CO" /></a>
+<a class="plain" href="events/"><img id="mg2020" class="section-img" src="img/MG2021-logo.png?cb=0" alt="MG International 2021" /></a>
 
 <a class="plain" href="events/">
-<h2 class="green-heading strikethrough">NAMMMR National Meet:
-June&nbsp;1&nbsp;to&nbsp;5, 2020</h2>
+<h2 class="green-heading">MG&nbsp;International – Atlantic&nbsp;City&nbsp;2021<br>
+June&nbsp;14&nbsp;to&nbsp;17, 2021</h2>
 </a>
 
-<p class="notice">For the health and safety of our members, 
-our national meet for 2020 has been cancelled due to the COVID-19 pandemic. 
-Additional details have been emailed to our members regarding the cancellation.</p>
-<p class="notice">We wish you all the best of health, and we hope to see you in 2021 in Atlantic City!</p>
+*In only a few months, hundreds of MG enthusiasts from throughout the United
+States, Canada, and perhaps even a few other countries will be attending the
+sixth multi-Register gathering of the marque, “MG International – Atlantic
+City 2021”.*
+
+*Online registration should be available sometime in late November 2020.*
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>

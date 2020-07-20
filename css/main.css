@@ -192,6 +192,11 @@ a.plain img {
   margin-bottom: 5px;
 }
 
+#mg2020.section-img {
+  margin-top: 30px;
+  max-width: 30%;
+}
+
 section {
   padding: 0 0.5em;
 }
