@@ -806,17 +806,12 @@ form.paypal {
     font-size: 48px;
   }
 
-  #events img.snapshot {
-    width: 100%;
-    max-width: 100%;
-    clear: both;
-  }
-
+  #events img.snapshot,
   #events #mg2020.logo {
     width: 100%;
-    max-width: 90%;
-    clear: both;
-    margin-top: 0;
+    max-width: none;
+    margin: 0;
+    margin-bottom: 1em;
   }
 }
 
