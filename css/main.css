@@ -200,11 +200,12 @@ a.plain img {
 #events #mg2020.logo {
   margin-top: 30px;
   max-width: 30%;
+  min-width: 350px;
 }
 
 #events img.snapshot {
   max-width: 30%;
-  min-width: 300px;
+  min-width: 350px;
   margin-bottom: 1em;
 }
 
