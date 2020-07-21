@@ -197,6 +197,17 @@ a.plain img {
   max-width: 30%;
 }
 
+#events #mg2020.logo {
+  margin-top: 30px;
+  max-width: 30%;
+}
+
+#events img.snapshot {
+  max-width: 30%;
+  min-width: 300px;
+  margin-bottom: 1em;
+}
+
 section {
   padding: 0 0.5em;
 }
@@ -438,6 +449,10 @@ ul {
   vertical-align: top;
   margin-top: 30px;
   margin-left: 10px;
+}
+
+#events {
+  font-size: 14pt;
 }
 
 #events .date {
@@ -788,6 +803,19 @@ form.paypal {
   #carousel a.next,
   #carousel a.prev {
     font-size: 48px;
+  }
+
+  #events img.snapshot {
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+  }
+
+  #events #mg2020.logo {
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+    margin-top: 0;
   }
 }
 
