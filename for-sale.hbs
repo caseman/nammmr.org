@@ -12,7 +12,12 @@ base: ../
 	<li><a href="for-sale/#wanted">Parts Wanted</a></li>
   </ul>
 </div>
+
 <a name="cars"></a><h2 class="divider">Cars For Sale</h2>
+
+<a id="display-ad" class="plain wide-only" href="https://www.autosparks.co.uk/" target="_new"
+><img src="ad/autosparks.jpg" alt=""></a>
+
 {{#each (reverse collections/cars-for-sale)}}
 <a class="plain content-padding item {{#unless @last}}divided{{/unless}}"
    href="for-sale/{{fileSlug}}/">
@@ -24,6 +29,10 @@ base: ../
     </div>
 </a>
 {{/each}}
+
+<a id="display-ad" class="plain narrow-only" href="https://www.autosparks.co.uk/" target="_new"
+><img src="ad/autosparks.jpg" alt=""></a>
+
 {{#if collections/parts-for-sale}}
 <a name="parts"></a><h2 class="divider">Parts For Sale</h2>
 {{#each (reverse collections/parts-for-sale)}}

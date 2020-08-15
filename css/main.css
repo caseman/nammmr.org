@@ -544,6 +544,19 @@ ul {
     max-width: 800px;
 }
 
+#for-sale #display-ad {
+  display: block;
+  float: right;
+  max-width: 30%;
+  padding: 0.5em;
+  text-align: right;
+}
+
+#for-sale #display-ad img {
+  width: 100%;
+  min-width: 225px;
+}
+
 #regalia {
   text-align: center;
 }
@@ -754,11 +767,19 @@ form.paypal {
   .wide-only {
     display: inherit;
   }
+
+  .narrow-only {
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .wide-only {
     display: none !important;
+  }
+
+  .narrow-only {
+    display: inherit;
   }
 
   #main-content .content-block {
@@ -812,6 +833,12 @@ form.paypal {
     max-width: none;
     margin: 0;
     margin-bottom: 1em;
+  }
+
+  #for-sale #display-ad {
+    width: 100%;
+	max-width: 95%;
+    float: none;
   }
 }
 

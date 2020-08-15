@@ -46,6 +46,7 @@ function mtime(path) {
 
 module.exports = function(eleventyConfig) {
     [
+        "ad",
         "img",
         "thumb",
         "photos",
@@ -54,7 +55,7 @@ module.exports = function(eleventyConfig) {
         "events",
         "newsletters",
         "newsletter-thumb",
-		"join",
+        "join",
         "favicon.ico",
         "favicon.png",
         "site.webmanifest",
