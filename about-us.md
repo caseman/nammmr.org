@@ -62,7 +62,7 @@ Mr. Bill Tantau   1991 - 2012
     <td><a href="mailto:MGTOM@zoominternet.net">MGTOM@zoominternet.net</a></td>
 </tr>
 <tr>
-    <td class="title">Secretary</td>
+    <td class="title">Director of Register Events</td>
     <td>Alan Magnuson</td>
     <td><a href="mailto:alanmg1978@gmail.com">alanmg1978@gmail.com</a></td>
 </tr>
@@ -77,12 +77,17 @@ Mr. Bill Tantau   1991 - 2012
     <td><a href="mailto:MGTCTom@gmail.com">MGTCTom@gmail.com</a></td>
 </tr>
 <tr>
-    <td class="title">Director of Register Events</td>
+    <td class="title">Secretary</td>
     <td>Sarah Richey</td>
     <td><a href="mailto:srichey52@gmail.com">srichey52@gmail.com</a></td>
 </tr>
 <tr>
     <td class="title">Registrar</td>
+    <td>Reinout Vogt</td>
+    <td><a href="mailto:reinoutvogt@gmail.com">reinoutvogt@gmail.com</a></td>
+</tr>
+<tr>
+    <td class="title">Director of MMM Vehicle Records</td>
     <td>Lew Palmer</td>
     <td><a href="mailto:lew@roundaboutmanor.com">lew@roundaboutmanor.com</a></td>
 </tr>
