@@ -19,10 +19,11 @@ to provide a means of communication among owners of MMM cars in North America.
 "MMM" refers to Midget, Magna and Magnette: the overhead cam MGs
 produced between 1929 and 1936.
 
-Currently 142 members participate in the Register.
-The members own a total of 217 MMM cars encompassing 21 different models (although 459 cars
-have been known to the Register). Publications sent to members in good standing include
-the "N.A. MMM Newsletter" and the "N.A. MMM Annual Directory".
+The register has circa 150 members who own (in total) over 200 cars
+encompassing more than 20 different models. The register also has records of
+about 250 MMM cars in North America that are currently not in the active
+membership. The "N.A. MMM Annual Directory" is sent to members in good
+standing.
 
 The [NAMMMR Purpose & Guidelines document](guidelines-and-purposes)
 contains Definitions and Qualifications for authentic MMM cars as recognised

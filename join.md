@@ -7,7 +7,7 @@ main-class: content-background content-padding
 <h2 class="divider">Membership Dues</h2>
 
 Dues are $40 per year worldwide. Dues are due on January 31 of each year. The
-dues cover the costs of printing and mailing of the publications which are the
+dues cover the costs of the publications which are the
 "vehicles" for our communications. Past issues of the North American MMM
 Newsletters are available for download in the [Newsletters tab](newsletters/)
 of this website.
