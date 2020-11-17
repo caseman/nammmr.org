@@ -15,8 +15,8 @@ base: ../
 
 <a name="cars"></a><h2 class="divider">Cars For Sale</h2>
 
-<a id="display-ad" class="plain wide-only" href="https://www.autosparks.co.uk/" target="_new"
-><img src="ad/autosparks.jpg" alt=""></a>
+<a class="display-ad plain wide-only" href="" target="_new"
+><img src="" alt=""></a>
 
 {{#each (reverse collections/cars-for-sale)}}
 <a class="plain content-padding item {{#unless @last}}divided{{/unless}}"
@@ -30,8 +30,8 @@ base: ../
 </a>
 {{/each}}
 
-<a id="display-ad" class="plain narrow-only" href="https://www.autosparks.co.uk/" target="_new"
-><img src="ad/autosparks.jpg" alt=""></a>
+<a class="display-ad plain narrow-only" href="" target="_new"
+><img src="" alt=""></a>
 
 {{#if collections/parts-for-sale}}
 <a name="parts"></a><h2 class="divider">Parts For Sale</h2>
@@ -52,3 +52,23 @@ base: ../
     </p>
 </div>
 </div>
+
+<script>
+var ads = [
+    {
+        "uri": "https://www.longstonetyres.co.uk/",
+        "img": "longstone.jpg"
+    },
+    {
+        "uri": "https://www.autosparks.co.uk/",
+        "img": "autosparks.jpg"
+    }
+];
+function documentReady() {
+    var i = Math.floor(new Date().getTime() / 60000) % ads.length;
+    var ad_el = $(".display-ad");
+    ad_el.attr("href", ads[i].uri);
+    ad_el.children("img").attr("src", "ad/" + ads[i].img);
+}
+</script>
+
