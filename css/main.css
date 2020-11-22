@@ -771,6 +771,12 @@ form.paypal {
   .narrow-only {
     display: none !important;
   }
+
+  .video {
+    float: left;
+    margin-right: 1em;
+  }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -830,14 +836,20 @@ form.paypal {
   #events img.snapshot,
   #events #mg2020.logo {
     width: 100%;
+    float: none;
+    min-width: 0;
     max-width: none;
     margin: 0;
     margin-bottom: 1em;
   }
 
+  .video {
+    max-width: 100%;
+  }
+
   #for-sale .display-ad {
     width: 100%;
-	max-width: 95%;
+    max-width: 95%;
     float: none;
   }
 }
