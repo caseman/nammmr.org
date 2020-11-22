@@ -62,10 +62,18 @@ var ads = [
     {
         "uri": "https://www.autosparks.co.uk/",
         "img": "autosparks.jpg"
-    }
+    },
+    {
+        "uri": "https://www.vintagecarparts.co.uk",
+        "img": "paul-beck.jpg"
+    },
+    {
+        "uri": "https://www.completeautomobilist.com ",
+        "img": "complete-auto.png"
+    },
 ];
 function documentReady() {
-    var i = Math.floor(new Date().getTime() / 60000) % ads.length;
+    var i = Math.floor(new Date().getTime() / 15000) % ads.length;
     var ad_el = $(".display-ad");
     ad_el.attr("href", ads[i].uri);
     ad_el.children("img").attr("src", "ad/" + ads[i].img);
