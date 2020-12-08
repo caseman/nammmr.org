@@ -72,11 +72,20 @@ var ads = [
         "img": "complete-auto.png"
     },
 ];
-function documentReady() {
-    var i = Math.floor(new Date().getTime() / 15000) % ads.length;
+const ad_duration = 15000;
+function showAd() {
+    var i = Math.floor(new Date().getTime() / ad_duration) % ads.length;
     var ad_el = $(".display-ad");
     ad_el.attr("href", ads[i].uri);
     ad_el.children("img").attr("src", "ad/" + ads[i].img);
+    ad_el.fadeIn();
 }
+function rotateAd() {
+    var ad_el = $(".display-ad");
+    ad_el.fadeOut(400, 'swing');
+    setTimeout(showAd, 400);
+}
+setInterval(rotateAd, ad_duration);
+const documentReady = showAd;
 </script>
 
