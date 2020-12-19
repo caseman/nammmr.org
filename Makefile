@@ -48,13 +48,13 @@ install:
 	npm install
 
 ssh:
-	ssh nammmr56@nammmr.org -p 18765 -i ~/.ssh/sg_rsa
+	ssh u162-h6uv4kpfvf2m@nammmr.org -oStrictHostKeyChecking=no -p 18765 -i ~/.ssh/sg_rsa
 
 stage: build
-	rsync -rhP -e "ssh -i ${HOME}/.ssh/sg_rsa -p 18765" _site/. nammmr56@nammmr.org:public_html/__test__/
+	rsync -rhP -e "ssh -oStrictHostKeyChecking=no -i ${HOME}/.ssh/sg_rsa -p 18765" _site/. u162-h6uv4kpfvf2m@nammmr.org:www/nammmr.org/public_html/__test__/
 
 live: build
-	rsync -rhP -e "ssh -i ${HOME}/.ssh/sg_rsa -p 18765" _site/. nammmr56@nammmr.org:public_html/
+	rsync -rhP -e "ssh -oStrictHostKeyChecking=no -i ${HOME}/.ssh/sg_rsa -p 18765" _site/. u162-h6uv4kpfvf2m@nammmr.org:www/nammmr.org/public_html/
 
 fix-ssh:
 	# Fixes `/bin/bash: No such file or directory` error on ssh
