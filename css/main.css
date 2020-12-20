@@ -192,9 +192,14 @@ a.plain img {
   margin-bottom: 5px;
 }
 
-#mg2020.section-img {
+.mg2020.section-img {
   margin-top: 30px;
-  max-width: 30%;
+  max-width: 40%;
+}
+
+.mmm2020.section-img {
+  margin-top: 12px;
+  max-width: 35%;
 }
 
 #events #mg2020.logo {

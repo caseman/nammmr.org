@@ -6,11 +6,10 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section id="home-feature" class="divided">
-<a class="plain" href="events/"><img id="mg2020" class="section-img" src="img/MMM2021-logo.png?cb=0" alt="MG International/MMM National Meet 2021" /></a>
+<a class="plain" href="events/"><img class="mmm2020 section-img" src="img/MMM2021-logo.png?cb=0" alt="MG International/MMM National Meet 2021" /> <img class="mg2020 section-img" src="img/MG2021-logo.png?cb=0" alt="" /></a><br class="content-block">
 
 <a class="plain" href="events/">
-<h2 class="green-heading">MG&nbsp;International – Atlantic&nbsp;City&nbsp;2021<br>
-June&nbsp;14&nbsp;to&nbsp;17, 2021</h2>
+<h2 class="green-heading">MG&nbsp;International, Atlantic&nbsp;City&nbsp;2021 – June&nbsp;14&nbsp;to&nbsp;17, 2021</h2>
 </a>
 
 *In only a few months, hundreds of MG enthusiasts from throughout the United
