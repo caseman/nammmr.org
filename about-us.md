@@ -44,4 +44,17 @@ Mr. Jerry Keuper   1988 - 1991
 Mr. Bill Tantau   1991 - 2012
 </div>
 
+<h2 class="divider">Honorary Members</h2>
+
+<img class="float-right" src="img/award-ribbon.png" alt="">
+
+The North American MMM Register would like to recognize the following people
+for their lifelong dedication and contributions to the MMM community.
+
+<div class="hall-of-fame">
+Wayne Carini
+
+Peter Thornley
+</div>
+
 <img class="sketch" src="img/m-type-sketch.png" alt="">
