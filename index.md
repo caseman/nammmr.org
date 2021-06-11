@@ -12,12 +12,10 @@ permalink: index.html
 <h2 class="green-heading">MG&nbsp;International, Atlantic&nbsp;City&nbsp;2021 – June&nbsp;14&nbsp;to&nbsp;17, 2021</h2>
 </a>
 
-*In only a few months, hundreds of MG enthusiasts from throughout the United
+*Hundreds of MG enthusiasts from throughout the United
 States, Canada, and perhaps even a few other countries will be attending the
 sixth multi-Register gathering of the marque, “MG International – Atlantic
 City 2021”.*
-
-*Online registration should be available sometime in late November 2020.*
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
