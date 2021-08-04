@@ -5,13 +5,21 @@ base: ../
 ---
 <div id="events" class="content-padding content-background">
     <section class="event">
-    <h2 class="divider green-heading">MG&nbsp;International, Atlantic&nbsp;City&nbsp;2021</h2>
-    <div class="details">
-        <p class="date">June&nbsp;15&nbsp;to&nbsp;17, 2021</p>
-    </div>
+        <h2 class="divider green-heading">MG&nbsp;International, Atlantic&nbsp;City&nbsp;2021</h2>
+        <div class="details">
+            <p class="date">June&nbsp;14&nbsp;to&nbsp;17, 2021</p>
+        </div>
 
-    <img class="logo" src="img/MMM2021-logo.png?cb=0" alt="MG International/MMM National Meet 2021" /> <img class="logo" src="img/MG2021-logo.png?cb=0" alt="" /><br class="content-block">
+        <img class="logo" src="img/MMM2021-logo.png?cb=0" alt="MG International/MMM National Meet 2021" /> <img class="logo" src="img/MG2021-logo.png?cb=0" alt="" /><br class="content-block">
 
+        <div class="details">
+            <h2 class="green-heading">MG International Photo Album</h3>
+            {{#repeat 15}}
+            <a class="doc-thumb" href="events-archive/#ac2021-{{@count}}">
+                <img class="shadowed" src="thumb/ac2021-{{@count}}.jpg" alt="" title="Click to enlarge">
+            </a>
+            {{/repeat}}
+        </div>
     </section>
     <section class="event">
         <h2 class="divider green-heading">2020 NAMMMR National Meet 
@@ -47,14 +55,6 @@ base: ../
         </div>
         <div class="details">
             <h2 class="green-heading">Bowling Green Meet Photo Album</h3>
-            <div id="carousel" aria-modal="true" class="modal">
-                <div class="element">
-                    <a href="{{page.url}}#" class="plain close nav" aria-label="close" onclick="$('#carousel').hide(200)">&times;</a>
-                    <a class="plain prev nav" aria-label="previous"">&lang;</a>
-                    <a class="plain next nav" aria-label="next">&rang;</a>
-                    <div class="caption"></div>
-                </div>
-            </div>
             {{#repeat 16}}
             <a class="doc-thumb" href="events-archive/#bg2019-{{@count}}">
                 <img class="shadowed" src="thumb/bg2019-{{@count}}.jpg" alt="" title="Click to enlarge">
@@ -62,27 +62,6 @@ base: ../
             {{/repeat}}
         </div>
 
-        <script>
-            var bg2019 = [
-            {{#repeat 16}}
-                {
-                    id: "#bg2019-{{@count}}",
-                    {{#if @first}}
-                    caption: "UK guests: Adam Sloman, MGCC General Manager; Peter Cook, MGCC Overseas Director",
-                    {{else if @second}}
-                    caption: "Peter & Beverly Thornley (John Thornley's son)",
-                    {{else}}
-                    caption: "2019 MMM National Meet, Bowling Green KY",
-                    {{/if}}
-                    img: "photos/bg2019-{{@count}}.jpg",
-                },
-            {{/repeat}}
-            ];
-
-            function documentReady() {
-                new Carousel($('#carousel'), bg2019, true);
-            }
-        </script>
     </section>
     <section class="event">
         <h2 class="divider">67th Annual Rallye Glenwood Springs</h2>
@@ -91,5 +70,44 @@ base: ../
         </a>
         <p class="date">June 7-9, 2019</p>
     </section>
+
+    <div id="carousel" aria-modal="true" class="modal">
+        <div class="element">
+            <a href="{{page.url}}#" class="plain close nav" aria-label="close" onclick="$('#carousel').hide(200)">&times;</a>
+            <a class="plain prev nav" aria-label="previous"">&lang;</a>
+            <a class="plain next nav" aria-label="next">&rang;</a>
+            <div class="caption"></div>
+        </div>
+    </div>
+
+    <script>
+        var photos = [
+        {{#repeat 15}}
+            {
+                id: "#ac2021-{{@count}}",
+                img: "photos/ac2021-{{@count}}.jpg",
+                caption: "MG International, Atlantic City 2021",
+            },
+        {{/repeat}}
+
+        {{#repeat 16}}
+            {
+                id: "#bg2019-{{@count}}",
+                {{#if @first}}
+                caption: "UK guests: Adam Sloman, MGCC General Manager; Peter Cook, MGCC Overseas Director",
+                {{else if @second}}
+                caption: "Peter & Beverly Thornley (John Thornley's son)",
+                {{else}}
+                caption: "2019 MMM National Meet, Bowling Green KY",
+                {{/if}}
+                img: "photos/bg2019-{{@count}}.jpg",
+            },
+        {{/repeat}}
+        ];
+
+        function documentReady() {
+            new Carousel($('#carousel'), photos, true);
+        }
+    </script>
 </div>
 
