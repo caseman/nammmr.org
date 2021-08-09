@@ -4,9 +4,10 @@
     "model": "M",
     "year": 1929,
     "vin": "2M0586",
-    "owner": "Russel Hertzog",
+    "owner": "Benjamin Hertzog",
     "location": "Texas, USA",
-    "description": "Restored in the livery of a 12/12 Brooklands Racer"
+    "description": "Restored in the livery of a 12/12 Brooklands Racer",
+    "addt_photos": 1
 },
 {
     "type": "M",
@@ -120,9 +121,28 @@
     "type": "J",
     "model": "J2",
     "year": 1933,
+    "vin": "J3356",
+    "owner": "Russel Hertzog",
+    "location": "Texas, USA",
+    "description": "",
+    "addt_photos": 1
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
     "vin": "J3459",
     "owner": "Koke & Andi Twigg-Smith",
     "location": "Vermont, USA",
+    "description": ""
+},
+{
+    "type": "J",
+    "model": "J2",
+    "year": 1933,
+    "vin": "J3596",
+    "owner": "Russel Hertzog",
+    "location": "Texas, USA",
     "description": ""
 },
 {
