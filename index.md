@@ -6,6 +6,17 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section class="content divided">
+<a class="plain" href="regalia/"><img class="section-img" src="img/nammmr-logo-metal.png" alt="" /><a>
+
+<h2 class="green-heading">Save the Date! NAMMMR National Meet
+July&nbsp;18&#8209;22&nbsp;2022</h2>
+
+*The 2022 North American MMM Register Meet will be held July 18-22, 2022 in Winona, Minnesota.
+Winona is located on the Mississippi River in southeastern Minnesota's picturesque bluff country.
+<br><br>
+We will be hosted by the Minnesota MG T Register and joining GOF Central 2022.*
+</section>
+<section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
 
 <a class="plain" href="regalia/">
