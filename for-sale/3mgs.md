@@ -17,7 +17,7 @@ Saloon. We will not be selling individual parts. Our website [3MGs.org](https://
 the cars. Contact us anytime for more information or to schedule an
 examination of the cars.
 
-**Contact:**    [https://3mgs.org/](https://3mgs.org/)
+**Contact:**    [https://3mgs.org/contact/](https://3mgs.org/contact/)
 
 **Call/Text:**  Douglas at (925) 519-036(six)
 
