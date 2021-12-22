@@ -9,7 +9,7 @@
   "author": "Casey Duncan",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0"
+    "@11ty/eleventy": "^0.12.0"
   },
   "dependencies": {}
 }
