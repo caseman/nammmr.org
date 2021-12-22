@@ -4,7 +4,7 @@ tags: cars-for-sale
 date: 2021-10-25
 title: "3 Pre-war MGs including an L-Type Magna and 2 MG SAs"
 summary: "includes a mid-restoration L-Type Magna, a mid-restoration SA Saloon, and another SA that could be used for parts."
-price: "$50,000 obo"
+price: "$40,000 obo"
 photos: 10
 ---
 This collection located in Watsonville, California, USA, includes a
