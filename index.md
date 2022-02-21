@@ -6,7 +6,7 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section class="content divided">
-<a class="plain" href="regalia/"><img class="section-img" src="img/2022-la-crosse-logo.png" alt="" /><a>
+<a class="plain" href="https://mnmgtr.org/gof-central-2022/"><img class="section-img" src="img/2022-la-crosse-logo.png" alt="" /><a>
 
 <h2 class="green-heading">Save the Date! NAMMMR National Meet
 July&nbsp;11&#8209;15&nbsp;2022</h2>
