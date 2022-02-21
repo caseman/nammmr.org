@@ -6,10 +6,11 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section class="content divided">
-<a class="plain" href="https://mnmgtr.org/gof-central-2022/"><img class="section-img" src="img/2022-la-crosse-logo.png" alt="" /><a>
+<a class="plain" href="https://mnmgtr.org/gof-central-2022/"><img class="section-img" src="img/2022-la-crosse-logo.png" alt="" />
 
-<h2 class="green-heading">Save the Date! NAMMMR National Meet
+<h2 class="green-heading">NAMMMR National Meet
 July&nbsp;11&#8209;15&nbsp;2022</h2>
+</a>
 
 *The 2022 North American MMM Register Meet will be held July 11-15, 2022 in La
 Crosse, Wisconsin.
