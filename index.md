@@ -16,6 +16,8 @@ Crosse, Wisconsin.
 La Crosse is along the banks of the beautiful Mississippi river.
 <br><br>
 We will be hosted by the Minnesota MG T Register and joining GOF Central 2022.*
+<br><br>
+<a href="https://mnmgtr.org/gof-central-2022/"><em><b>&rarr; Click here for more information and to register!</b></em></a>
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
