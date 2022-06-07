@@ -16,7 +16,7 @@ photos/%.jpg: _photos/%.jpg
 
 newsletter-thumb/%.jpg: newsletters/%.pdf
 	mkdir -p newsletter-thumb
-	gs -sDEVICE=jpeg -dNOPAUSE -dPDFFitPage=true \
+	gs -sDEVICE=jpeg -dNOPAUSE \
 	   -dDEVICEWIDTHPOINTS=1000 -dDEVICEHEIGHTPOINTS=770 \
 	   -dGraphicsAlphaBits=4 -dTextAlphaBits=4 \
 	   -dFirstPage=1 -dLastPage=1 -sOutputFile=$(tmp) \
