@@ -6,25 +6,24 @@ permalink: index.html
 
 <div id="content-sections" class="content-block content-background">
 <section class="content divided">
-<a class="plain" href="https://mnmgtr.org/gof-central-2022/"><img class="section-img" src="img/2022-la-crosse-logo.png" alt="" />
 
-<h2 class="green-heading">NAMMMR National Meet
-July&nbsp;11&#8209;15&nbsp;2022</h2>
+<h2 class="green-heading">Save the Date &mdash; You're Invited!&nbsp;
+June&nbsp;20&#8209;23&nbsp;2023</h2>
 </a>
 
-*The 2022 North American MMM Register Meet will be held July 11-15, 2022 in La
-Crosse, Wisconsin.
-La Crosse is along the banks of the beautiful Mississippi river.
+<a class="plain" href="https://www.gof2023.com/"><img src="img/2023-mg-centenary-logo.png" alt="" /><br><br>
+*The 2023 North American MMM Register Meet will be held June 20-23, 2023 in 
+South Bend Indiana!
 <br><br>
-We will be hosted by the Minnesota MG T Register and joining GOF Central 2022.*
+We will be participating as part of GOF Central 2023 celebrating 100 years of MG motoring.*
 <br><br>
-<a href="https://mnmgtr.org/gof-central-2022/"><em><b>&rarr; Click here for more information and to register!</b></em></a>
+<a href="https://www.gof2023.com/"><em><b>&rarr; Click here for more information!</b></em></a>
 </section>
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt="" /><a>
 
 <a class="plain" href="regalia/">
-<h2 class="green-heading">New NAMMMR Regalia</h2>
+<h2 class="green-heading">NAMMMR Regalia</h2>
 </a>
 
 *Clothing & accessory items are now available for purchase.
@@ -37,7 +36,7 @@ Go to our <a href="regalia/">Regalia Page</a> for details!*
 <a class="plain" href="https://www.hagerty.com/apps/-/CLLTM"><img id="hagerty-logo" class="section-img" src="img/hagerty-logo.jpg" alt="" /><a>
 
 <a class="plain" href="https://www.hagerty.com/apps/-/CLLTM">
-<h2 class="green-heading">New NAMMMR Member Benefit</h2>
+<h2 class="green-heading">NAMMMR Member Benefit</h2>
 </a>
 
 *Announcing a NAMMMR Classic Auto Insurance
