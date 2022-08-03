@@ -16,6 +16,14 @@ base: ../
         along the banks of the beautiful Mississippi river.
         <p>
         We were hosted by the Minnesota MG T Register as part of GOF Central 2022.
+        <div class="details">
+            <h2 class="green-heading">2022 Photo Album</h3>
+            {{#repeat 21}}
+            <a class="doc-thumb" href="events-archive/#lc2022-{{@count}}">
+                <img class="shadowed" src="thumb/lc2022-{{@count}}.jpg" alt="" title="Click to enlarge">
+            </a>
+            {{/repeat}}
+        </div>
     </section>
     <section class="event">
         <h2 class="divider green-heading">MG&nbsp;International, Atlantic&nbsp;City&nbsp;2021</h2>
@@ -95,6 +103,14 @@ base: ../
 
     <script>
         var photos = [
+        {{#repeat 21}}
+            {
+                id: "#lc2022-{{@count}}",
+                img: "photos/lc2022-{{@count}}.jpg",
+                caption: " 2022 NAMMMR Meet, La Crosse, Wisconsin",
+            },
+        {{/repeat}}
+
         {{#repeat 15}}
             {
                 id: "#ac2021-{{@count}}",
