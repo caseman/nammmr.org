@@ -231,6 +231,15 @@
     "type": "P",
     "model": "PA",
     "year": 1934,
+    "vin": "PA0660",
+    "owner": "Randy Morgan",
+    "location": "",
+    "description": ""
+},
+{
+    "type": "P",
+    "model": "PA",
+    "year": 1934,
     "vin": "PA1000",
     "owner": "Phil & Betty Marcell",
     "location": "Texas, USA",
