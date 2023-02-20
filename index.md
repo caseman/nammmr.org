@@ -23,7 +23,7 @@ MG. Follow along each month and join the celebratory <a href="events/">MG events
 
 <a class="plain" href="https://www.gof2023.com/"><img class="section-img" src="img/2023-south-bend-logo.png" alt=""></a>
 <h2 class="green-heading">2023 NAMMMR National Meet</h2>
-<h2 class="green-heading">June&nbsp;20&#8209;23&nbsp;2023</h2>
+<h2 class="green-heading">June&nbsp;20&#8209;23,&nbsp;2023</h2>
 
 *The 2023 North American MMM Register Meet will be held June 20-23, 2023 in 
 South Bend Indiana!
