@@ -175,9 +175,43 @@ a.plain img {
   border: none;
 }
 
+.full-height {
+  height: 100%;
+}
+
 .green-heading {
   color: green;
   text-shadow: white 0px 0px 2px;
+}
+
+.tile {
+  display: inline-block;
+  text-align: justify;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  vertical-align: top;
+  min-width: 300px;
+  max-width: 400px;
+  width: 30%;
+  min-height: 6em;
+  margin: 0 0 0.5em 0.5em;
+  padding: 0.6em;
+}
+
+.tile h4:before {
+  content: '\2014\a0\a0';
+}
+
+.tile h4:after {
+  content: '\a0\a0\2014';
+}
+
+.tile h4 {
+  text-align: center;
+  margin: 0;
+  color: green;
+  font-size: 115%;
+  text-shadow: white 0px 0px 5px;
 }
 
 .section-img {
@@ -221,6 +255,7 @@ section {
 #content-sections section {
   padding: 1em;
   display: inline-block;
+  width: 96%;
   clear: left;
 }
 
@@ -466,6 +501,15 @@ ul {
   font-size: 125%;
 }
 
+#events h4 {
+  margin: 0;
+  padding: 0.5em 0.5em 0 0;
+  width: 120px;
+  height: 100%;
+  vertical-align: top;
+  float: left;
+}
+
 #events .photo {
   max-height: 300px;
 }
@@ -498,12 +542,27 @@ ul {
 .back-link {
   margin-top: 2em;
   text-align: right;
+  font-size: 125%;
+  text-shadow: rgba(255,255,255,0.4) 0px 0px 3px;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(255,255,255,0.75);
+  padding: 0.3em 0.5em;
+  border: 2px solid rgb(81,51,5);
+}
+
+.back-link a:hover {
+  background-color: darkblue;
+  color: white;
 }
 
 .arrow {
   font-size: 28px;
   position: relative;
-  top: 4px;
+  top: 2px;
   line-height: 14px;
 }
 
@@ -857,6 +916,10 @@ form.paypal {
     max-width: 95%;
     float: none;
   }
+
+  .tile {
+    width: 92%;
+  }
 }
 
 @media screen and (orientation:landscape) and (max-height: 400px) {
@@ -865,6 +928,9 @@ form.paypal {
   #carousel {
       max-height: 375px;
       width: auto;
+  }
+  .tile {
+    width: 46%;
   }
 }
 
