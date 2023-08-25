@@ -13,6 +13,15 @@
     "type": "M",
     "model": "M",
     "year": 1930,
+    "vin": "2M1281",
+    "owner": "Ken Klemmer",
+    "location": "Missouri, USA",
+    "description": ""
+},
+{
+    "type": "M",
+    "model": "M",
+    "year": 1930,
     "vin": "2BM2273",
     "owner": "Jack & Nancy Kahler",
     "location": "Colorado, USA",
