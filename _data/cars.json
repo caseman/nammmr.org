@@ -33,16 +33,7 @@
     "year": 1931,
     "vin": "2M2735",
     "owner": "Reinout Vogt",
-    "location": "Illinois, USA",
-    "description": ""
-},
-{
-    "type": "M",
-    "model": "M",
-    "year": 1932,
-    "vin": "2M3295",
-    "owner": "James Seever",
-    "location": "USA",
+    "location": "Georgia, USA",
     "description": ""
 },
 {
@@ -112,24 +103,6 @@
     "type": "J",
     "model": "J2",
     "year": 1933,
-    "vin": "J3101",
-    "owner": "Jaime Steve",
-    "location": "Virginia, USA",
-    "description": ""
-},
-{
-    "type": "J",
-    "model": "J2",
-    "year": 1933,
-    "vin": "J3112",
-    "owner": "Alan & Kathy McCreery",
-    "location": "New Jersey, USA",
-    "description": ""
-},
-{
-    "type": "J",
-    "model": "J2",
-    "year": 1933,
     "vin": "J3128",
     "owner": "Bob & Carolyn Grunau",
     "location": "Ontario, Canada",
@@ -139,19 +112,9 @@
     "type": "J",
     "model": "J2",
     "year": 1933,
-    "vin": "J3356",
-    "owner": "Russel Hertzog",
-    "location": "Texas, USA",
-    "description": "",
-    "addt_photos": 1
-},
-{
-    "type": "J",
-    "model": "J2",
-    "year": 1933,
     "vin": "J3459",
-    "owner": "Koke & Andi Twigg-Smith",
-    "location": "Vermont, USA",
+    "owner": "Nicola DaBica",
+    "location": "New Hampshire, USA",
     "description": ""
 },
 {
@@ -194,15 +157,6 @@
     "type": "J",
     "model": "J2",
     "year": 1933,
-    "vin": "J4169",
-    "owner": "Chris & Laurie Nowlan",
-    "location": "New Hampshire, USA",
-    "description": ""
-},
-{
-    "type": "J",
-    "model": "J2",
-    "year": 1933,
     "vin": "J4291",
     "owner": "Dick Zuidema",
     "location": "Tierra Verde, FL & Lewes, DE",
@@ -216,15 +170,6 @@
     "owner": "Bob Ohnstad",
     "location": "Montana, USA",
     "description": ""
-},
-{
-    "type": "P",
-    "model": "PA",
-    "year": 1934,
-    "vin": "EX154",
-    "owner": "Pip Bucknell",
-    "location": "Queensland, Australia",
-    "description": "P EX154 -- Kohlrausch Car"
 },
 {
     "type": "P",
@@ -249,15 +194,6 @@
     "type": "P",
     "model": "PA",
     "year": 1934,
-    "vin": "PA1000",
-    "owner": "Phil & Betty Marcell",
-    "location": "Texas, USA",
-    "description": ""
-},
-{
-    "type": "P",
-    "model": "PA",
-    "year": 1934,
     "vin": "PA1127",
     "owner": "Peter & Pat Davis",
     "location": "Tennessee, USA",
@@ -270,34 +206,6 @@
     "vin": "PA1212",
     "owner": "Phil & Karna Anderson",
     "location": "Minnesota, USA",
-    "description": ""
-},
-{
-    "type": "P",
-    "model": "PA",
-    "year": 1934,
-    "vin": "PA1388",
-    "owner": "Kevin & Paula Allocca",
-    "location": "Virginia, USA",
-    "description": ""
-},
-{
-    "type": "P",
-    "model": "PA",
-    "year": 1935,
-    "vin": "PA1668",
-    "owner": "Pip Bucknell",
-    "location": "Queensland, Australia",
-    "description": "Single-seat racer",
-    "addt_photos": 1
-},
-{
-    "type": "P",
-    "model": "PA",
-    "year": 1935,
-    "vin": "PA1823",
-    "owner": "Don & Sandy Bonar",
-    "location": "Kansas, USA",
     "description": ""
 },
 {
@@ -346,24 +254,6 @@
     "description": ""
 },
 {
-    "type": "P",
-    "model": "PB",
-    "year": 1936,
-    "vin": "PB0474",
-    "owner": "Ian & Shelley Marr",
-    "location": "Ontario, Canada",
-    "description": ""
-},
-{
-    "type": "P",
-    "model": "PB",
-    "year": 1936,
-    "vin": "PB0560",
-    "owner": "Lew & Darlene Palmer",
-    "location": "Minnesota, USA",
-    "description": "Airline Coupe"
-},
-{
     "type": "K",
     "model": "K1",
     "year": 1933,
@@ -404,15 +294,6 @@
 },
 {
     "type": "L",
-    "model": "L1",
-    "year": 1933,
-    "vin": "L0317",
-    "owner": "Antoine & Kimberly Crettol",
-    "location": "New York, USA",
-    "description": ""
-},
-{
-    "type": "L",
     "model": "L2",
     "year": 1933,
     "vin": "L2002",
@@ -434,7 +315,7 @@
     "model": "NA",
     "year": 1934,
     "vin": "NA0613",
-    "owner": "Terry Sanders",
+    "owner": "Clark Mason",
     "location": "California, USA",
     "description": "4-seater"
 },
