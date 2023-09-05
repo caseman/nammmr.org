@@ -10,6 +10,14 @@ base: ../
         <img class="section-img" src="img/2023-south-bend-logo.png" alt="">
 
         The 2023 North American MMM Register Meet was held June 20-23, 2023 in South Bend Indiana
+        <div class="details">
+            <h2 class="green-heading">2023 Photo Album</h3>
+            {{#repeat 37}}
+            <a class="doc-thumb" href="events-archive/#sb2023-{{@count}}">
+                <img class="shadowed" src="thumb/sb2023-{{@count}}.jpg" alt="" title="Click to enlarge">
+            </a>
+            {{/repeat}}
+        </div>
     </section>
     <section class="event">
         <h2 class="divider green-heading">2022 NAMMMR National Meet</h2>
@@ -110,6 +118,14 @@ base: ../
 
     <script>
         var photos = [
+        {{#repeat 37}}
+            {
+                id: "#sb2023-{{@count}}",
+                img: "photos/sb2023-{{@count}}.jpg",
+                caption: " 2023 NAMMMR Meet, South Bend, Indiana",
+            },
+        {{/repeat}}
+
         {{#repeat 21}}
             {
                 id: "#lc2022-{{@count}}",
