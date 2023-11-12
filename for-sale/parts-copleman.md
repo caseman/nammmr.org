@@ -7,6 +7,9 @@ title: "MG PA Sheet Metal"
 <a class="item">
   <img class="thumb" src="thumb/rc-1.jpg">
   <img class="thumb" src="thumb/rc-2.jpg">
+</a>
+<br>
+<a class="item">
   <img class="thumb" src="thumb/rc-3.jpg">
   <img class="thumb" src="thumb/rc-4.jpg">
 </a>
