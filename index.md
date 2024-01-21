@@ -7,21 +7,20 @@ permalink: index.html
 <div id="content-sections" class="content-block content-background">
 <section class="content divided">
 
-<h2 class="green-heading">Celebrating 100 Years of MG Motoring!</h2>
+<h2 class="green-heading">GoF Central 2024 &mdash; Save the Date!</h2>
 
-*Join us in celebrating the centenary anniversary of MG sports cars.
-<a href="centenary-calendar/">The centenary calendar</a> features key events each month in the history of
-MG. Follow along each month and join the celebratory <a href="events/">MG events</a> starting in June, 2023!*
-<br><br>
-<img src="img/2023-mg-centenary-logo.png" alt="">
-<br>
+*The North American MMM Register invites you to our 2024 national meet **June
+16-21** in Newark, Ohio.*
 
-<a href="centenary-calendar/"><em><b>&#8658; 2023 Centenary Calendar</b></em></a><br>
-<a href="events/"><em><b>&#8658; 2023 MG Events</b></em></a>
+*We will join the MG faithful at GoF Central 2024.*
+
+*Registration opens February 1, 2024.*
+
+*Visit our <a href="events/">Events Page</a> and <a href="http://gofcentral.com/">gofcentral.com</a> for more information.*
 </section>
+
 <section class="content divided">
 <a class="plain" href="regalia/"><img class="section-img" src="img/regalia-sample.png" alt=""></a>
-
 <a class="plain" href="regalia/">
 <h2 class="green-heading">NAMMMR Regalia</h2>
 </a>
