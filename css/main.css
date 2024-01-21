@@ -540,7 +540,7 @@ ul {
 }
 
 .back-link {
-  margin-top: 2em;
+  margin: 0.5em;
   text-align: right;
   font-size: 125%;
   text-shadow: rgba(255,255,255,0.4) 0px 0px 3px;
